@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #F5F6FD;
+}
+
+.vivendo-card-r {
+  width: 100%;
+  height: 48rem;
+  box-sizing: border-box;
+  padding: 3.75rem 8.44rem 5rem 8.44rem;
+}
+.vivendo-card-r #heading {
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  margin-bottom: 1.81rem;
+}
+.vivendo-card-r #heading + p {
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 2.25rem;
+}
+.vivendo-card-r .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.88rem;
+}
+.vivendo-card-r .cards .home, .vivendo-card-r .cards .truck, .vivendo-card-r .cards .time {
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  padding: 0 2rem;
+}
+.vivendo-card-r .cards .home > div:nth-child(1) {
+  margin: 4rem 0 3.38rem 0;
+}
+.vivendo-card-r .cards .truck > div:nth-child(1) {
+  margin: 4.56rem 0 3.94rem 0;
+}
+.vivendo-card-r .cards .time > div:nth-child(1) {
+  margin: 3.63rem 0 3rem 0;
+}
+.vivendo-card-r .cards .images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vivendo-card-r .cards .card-heading {
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 0.94rem;
+}
+.vivendo-card-r .cards .para {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 1.56rem;
+}
+.vivendo-card-r .cards .learn {
+  display: flex;
+  align-items: center;
+}
+.vivendo-card-r .cards .learn p {
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 1.12rem 0 1.31rem 0;
+}
+.vivendo-card-r .cards .learn img {
+  margin-left: 7px;
+}
+
+.welcome-part-r {
+  width: 100%;
+  height: 48rem;
+  display: flex;
+  align-items: center;
+}
+.welcome-part-r .img-part {
+  height: 100%;
+  width: 100%;
+}
+.welcome-part-r .img-part img {
+  width: 100%;
+}
+.welcome-part-r .para-part {
+  height: 100%;
+  width: 100%;
+  margin-left: -6rem;
+}
+.welcome-part-r .para-part .logos {
+  margin-bottom: 3.06rem;
+}
+.welcome-part-r .para-part .logos > div:nth-child(1) {
+  margin-bottom: 0.44rem;
+}
+.welcome-part-r .para-part .logos > div:nth-child(2) {
+  margin-bottom: 0.63rem;
+}
+.welcome-part-r .para-part #para1 {
+  margin-left: 1.44rem;
+}
+.welcome-part-r .para-part #para2 {
+  margin-left: 1.06rem;
+}
+.welcome-part-r .para-part #para3 {
+  margin-left: 1.56rem;
+}
+.welcome-part-r .para-part > h5 {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  margin-top: 7.9rem;
+  margin-bottom: 1.31rem;
+}
+.welcome-part-r .para-part > h2 {
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  margin-bottom: 1.8rem;
+}
+.welcome-part-r .para-part > p {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 1.44rem;
+}
+.welcome-part-r .img-text {
+  display: flex;
+  align-items: center;
+}
+.welcome-part-r .img-text > p {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.welcome-part-r .buttons > button:nth-child(1) {
+  width: 10.625rem;
+  height: 3rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  background: var(--Primary_1, #434CCC);
+  color: #FFF;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem;
+  border: 1px solid #434CCC;
+}
+.welcome-part-r .buttons > button:nth-child(2) {
+  width: 10.625rem;
+  height: 3rem;
+  flex-shrink: 0;
+  color: #434CCC;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem;
+  border-radius: 0.3125rem;
+  border: 1px solid #434CCC;
+  margin-left: 1.87rem;
+}
+
+/*# sourceMappingURL=style.css.map */
