@@ -1,0 +1,112 @@
+//  Sumit section
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Vim-container {
+    background: rgb(67, 76, 204, 0.0515);
+    display: flex;
+    padding: 111px 135px;
+    padding-bottom: 129px;
+
+    #left-vim {
+        margin-right: 79px;
+    }
+
+    #left-vim>h5 {
+        color: var(--Text_Black, #000);
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 4.8px;
+        text-transform: uppercase;
+    }
+
+    #left-vim>h2 {
+        color: var(--Text_Black, #000);
+        font-family: DM Serif Display;
+        font-size: 56px;
+        font-style: normal;
+        line-height: 64px;
+        margin-top: 21px;
+    }
+
+    .vim-para {
+        margin-top: 29px;
+
+        max-width: 561px;
+    }
+
+    #vim-button {
+        color: #434CCC;
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        border: 1px solid rgba(67, 76, 204, 0.3);
+        padding:13px 55px;
+        margin-top: 33px;
+        border-radius: 5px;
+    }
+
+    .vim-para>p {
+        color: var(--Text_Black, #000);
+        font-family: DM Sans;
+        font-size: 20px;
+        font-style: normal;
+        line-height: 32px;
+
+    }
+
+    #right-vim-cont {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 57px;
+        column-gap: 40px;
+        padding-top: 67px;
+
+
+    }
+
+    #right-vim-cont>div {
+        display: flex;
+        gap: 30px;
+
+
+
+    }
+
+    #right-vim-cont>div>div>h4 {
+        font-family: DM Serif Display;
+        font-size: 24px;
+        font-style: normal;
+        line-height: 32px;
+        margin-bottom: 7px;
+
+    }
+
+    #right-vim-cont>div>div>p {
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+        /* 150% */
+    }
+
+}
+hr{
+    opacity: 0.3;
+}
+
+
+
+
