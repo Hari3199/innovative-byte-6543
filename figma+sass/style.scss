@@ -271,13 +271,203 @@
      }
   }
   
-    
+    // Haresh Media Query
+
+@media all and (max-width:375px){
+  .header1_h{
+    padding: 0;
+    max-width: 375px;
+    h3 {
+      color: #FFF;
+      margin-top: 16px;
+      font-size: 24px;
+      line-height: 32px;
+      margin-left: 14px;
+    }
+    .link_h{
+      display: none;
+    }
+    button {
+      display: none;
+    }
+    svg {
+      display: block;
+      margin-top: 24px;
+      margin-right: 26px;
+      transition:.3s;
+    }
+    svg:hover{
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+  }
+  
+  .header2_h{
+    padding: 0;
+    max-width: 375px;
+    h1 {
+      font-size: 56px;
+      line-height: 64px;
+    }
+    p {
+      font-size: 20px;
+      line-height: 32px;
+    }
+  }
+
+
+
+  .container_h{
+    width: 375px;
+    height: 1152px;
+    padding: 0px 14px;
+    display:flex;
+    flex-direction: column;
+ }
+ .left_h{
+  // border: 2px solid;
+  .text_h{
+     margin-top: 47px;
+
+    h4{
+      width: 93px;
+      height : 24px;
+      margin-bottom: 19px;
+      //styleName: H5;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3em;
+        text-align: left;
+    }
+
+    h2{
+      width: 294px;
+      height: 96px;
+      //styleName: H3;
+      font-family: DM Serif Display;
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 48px;
+      letter-spacing: 0px;
+      text-align: left;
+      margin-bottom: 31px;
+    }
+
+    p{
+      border: none;
+      width: 346px;
+      height: 135px;
+      flex-shrink: 0;
+      //styleName: Text_Big;
+      font-family: DM Sans;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0px;
+      // text-align: left;
+      margin-bottom: 42px;
+    }
+  }
+
+  .bottom_h{
+    display: flex;
+    flex-direction: column;
+
+     .s1{
+        h3{
+          width: 86px;
+          height: 48px;
+          //styleName: H3;
+          font-family: DM Serif Display;
+          font-size: 40px;
+          font-weight: 400;
+          line-height: 48px;
+          letter-spacing: 0px;
+          text-align: left;
+          margin-bottom: 5px;
+        }
+        .dark{
+          width: 114px;
+          height: 24px;
+          margin-bottom: 8px;
+          //styleName: Text;
+            font-family: DM Sans;
+            font-size: 16px;
+            // font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            // border: 1px solid red;
+        }
+        .grey{
+          width: 270px;
+          height: 49px;
+          //styleName: Text_Gray;
+          font-family: DM Sans;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+     }
+
+     .s2{
+      h3{
+        width: 96px;
+        height: 48px;
+        //styleName: H3;
+        font-family: DM Serif Display;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 5px;
+      }
+      .dark{
+        width: 121px;
+        height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 8px;
+        // font-weight: 700;
+      }
+      .grey{
+        width: 270px;
+        height: 49px;
+        //styleName: Text_Gray;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+     }
+  }
+ }
+
+ .right_h{
+  width: 647px;
+  height: 431px;
+  margin-top: -8px;
+  margin-bottom: 21px;
+  // border: 1px solid red;
+  margin-left: -200px;
+  img{
+    width: 100%;
+  }
+ }
+}
   
 
  
 
   
-  // Rantu's Section
+  // Rantu style
 
 .vivendo-card{
   background-color: #f5f6fd;
@@ -550,199 +740,9 @@
  
 }
 
-// Haresh Media Query
-
-@media all and (max-width:375px){
-  .header1_h{
-    padding: 0;
-    max-width: 375px;
-    h3 {
-      color: #FFF;
-      margin-top: 16px;
-      font-size: 24px;
-      line-height: 32px;
-      margin-left: 14px;
-    }
-    .link_h{
-      display: none;
-    }
-    button {
-      display: none;
-    }
-    svg {
-      display: block;
-      margin-top: 24px;
-      margin-right: 26px;
-      transition:.3s;
-    }
-    svg:hover{
-      transform: scale(1.1);
-      cursor: pointer;
-    }
-  }
-  
-  .header2_h{
-    padding: 0;
-    max-width: 375px;
-    h1 {
-      font-size: 56px;
-      line-height: 64px;
-    }
-    p {
-      font-size: 20px;
-      line-height: 32px;
-    }
-  }
 
 
-
-  .container_h{
-    width: 375px;
-    height: 1152px;
-    padding: 0px 14px;
-    display:flex;
-    flex-direction: column;
- }
- .left_h{
-  // border: 2px solid;
-  .text_h{
-     margin-top: 47px;
-
-    h4{
-      width: 93px;
-      height : 24px;
-      margin-bottom: 19px;
-      //styleName: H5;
-        font-family: DM Sans;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.3em;
-        text-align: left;
-    }
-
-    h2{
-      width: 294px;
-      height: 96px;
-      //styleName: H3;
-      font-family: DM Serif Display;
-      font-size: 40px;
-      font-weight: 400;
-      line-height: 48px;
-      letter-spacing: 0px;
-      text-align: left;
-      margin-bottom: 31px;
-    }
-
-    p{
-      border: none;
-      width: 346px;
-      height: 135px;
-      flex-shrink: 0;
-      //styleName: Text_Big;
-      font-family: DM Sans;
-      font-size: 20px;
-      font-weight: 400;
-      line-height: 32px;
-      letter-spacing: 0px;
-      // text-align: left;
-      margin-bottom: 42px;
-    }
-  }
-
-  .bottom_h{
-    display: flex;
-    flex-direction: column;
-
-     .s1{
-        h3{
-          width: 86px;
-          height: 48px;
-          //styleName: H3;
-          font-family: DM Serif Display;
-          font-size: 40px;
-          font-weight: 400;
-          line-height: 48px;
-          letter-spacing: 0px;
-          text-align: left;
-          margin-bottom: 5px;
-        }
-        .dark{
-          width: 114px;
-          height: 24px;
-          margin-bottom: 8px;
-          //styleName: Text;
-            font-family: DM Sans;
-            font-size: 16px;
-            // font-weight: 700;
-            line-height: 24px;
-            letter-spacing: 0px;
-            text-align: left;
-            // border: 1px solid red;
-        }
-        .grey{
-          width: 270px;
-          height: 49px;
-          //styleName: Text_Gray;
-          font-family: DM Sans;
-          font-size: 16px;
-          font-weight: 400;
-          line-height: 24px;
-          letter-spacing: 0px;
-          text-align: left;
-        }
-     }
-
-     .s2{
-      h3{
-        width: 96px;
-        height: 48px;
-        //styleName: H3;
-        font-family: DM Serif Display;
-        font-size: 40px;
-        font-weight: 400;
-        line-height: 48px;
-        letter-spacing: 0px;
-        text-align: left;
-        margin-bottom: 5px;
-      }
-      .dark{
-        width: 121px;
-        height: 24px;
-        letter-spacing: 0px;
-        text-align: left;
-        margin-bottom: 8px;
-        // font-weight: 700;
-      }
-      .grey{
-        width: 270px;
-        height: 49px;
-        //styleName: Text_Gray;
-        font-family: DM Sans;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 24px;
-        letter-spacing: 0px;
-        text-align: left;
-      }
-     }
-  }
- }
-
- .right_h{
-  width: 647px;
-  height: 431px;
-  margin-top: -8px;
-  margin-bottom: 21px;
-  // border: 1px solid red;
-  margin-left: -200px;
-  img{
-    width: 100%;
-  }
- }
-}
-
-// Rantu Media Query
+// Rantu Media 
 
 @media all and (max-width: 375px) {
   .vivendo-card{
