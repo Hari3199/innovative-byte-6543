@@ -3,17 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background: #F5F6FD;
-}
 
 // Rantu's Section
 
-.vivendo-card-r{
-    width: 100%;
-    height: 48rem;
+.vivendo-card{
+    background-color: #f5f6fd;
+    width: 1440px;
+    height: 768px;
     box-sizing: border-box;
-    padding: 3.75rem 8.44rem 5rem 8.44rem;
+    padding: 60px 135px 80px 135px;
+    display: flex;
+    flex-direction: column;
     #heading{
         text-align: center;
         font-family: DM Serif Display;
@@ -21,7 +21,7 @@ body{
         font-style: normal;
         font-weight: 400;
         line-height: 64px; 
-        margin-bottom: 1.81rem;
+        margin-bottom: 29px;
     }
     #heading + p{
         text-align: center;
@@ -30,27 +30,29 @@ body{
         font-style: normal;
         font-weight: 400;
         line-height: 32px;
-        margin-bottom: 2.25rem;
+        margin-bottom: 36px;
     }
     .cards{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1.88rem;
+        display: flex;
+        gap: 30px;
         
         .home, .truck, .time{
+            width: 370px;
+            height: 416px;
             border-radius: 5px;
             background: #FFF;
             box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.30);
-            padding: 0 2rem;
+            padding: 0 32px;
+            transition-duration: .3s;
         }
         .home>div:nth-child(1){
-            margin: 4rem 0 3.38rem 0;
+            margin: 64px 0 54px 0;
         }
         .truck>div:nth-child(1){
-            margin: 4.56rem 0 3.94rem 0;
+            margin: 73px 0 63px 0;
         }
         .time>div:nth-child(1){
-            margin: 3.63rem 0 3rem 0;
+            margin: 58px 0 48px 0;
         }
         .images{
             display: flex;
@@ -63,7 +65,7 @@ body{
             font-style: normal;
             font-weight: 400;
             line-height: 32px;
-            margin-bottom: 0.94rem;
+            margin-bottom: 15px;
         }
         .para{
             color: var(--text-black-50, rgba(0, 0, 0, 0.50));
@@ -72,12 +74,11 @@ body{
             font-style: normal;
             font-weight: 400;
             line-height: 24px;
-            margin-bottom: 1.56rem;
+            margin-bottom: 25px;
         }
         .learn{
             display: flex;
             align-items: center;
-            // margin-top: 15px;
             p{
                 color: var(--Text_Black, #000);
                 font-family: DM Sans;
@@ -85,52 +86,57 @@ body{
                 font-style: normal;
                 font-weight: 700;
                 line-height: 24px; 
-                margin: 1.12rem 0 1.31rem 0;
+                margin: 18px 0 21px 0;
             }
             img{
                 margin-left: 7px;
             }
         }
+        .home:hover, .truck:hover, .time:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+        }
       
     }
 }
 
-.welcome-part-r{
-    width: 100%;
-    height: 48rem;
+.welcome-part{
+    background-color: #f5f6fd;
+    width: 1440px;
+    height: 768px;
     display: flex;
     align-items: center;
-
-    .img-part{
-        height: 100%;
-        width: 100%;
-       
-        img{
-            width: 100%;
-        }
+    box-sizing: border-box;
+   
+    .image-part{
+        height: 653px;
+        width: 981px;
+        margin: 29px 0 86px 0;
+        box-sizing: border-box;
     }
     .para-part{
         height: 100%;
-        width: 100%;
-        margin-left: -6rem;
+        margin-right: 135px;
+        margin-left: -5.1rem;
+        box-sizing: border-box;
         
         .logos{
-            margin-bottom: 3.06rem;
+            margin-bottom: 49px;
         }
         .logos>div:nth-child(1){
-            margin-bottom: 0.44rem;
+            margin-bottom: 7px;
         }
         .logos>div:nth-child(2){
-            margin-bottom: 0.63rem;
+            margin-bottom: 10px;
         }
         #para1{
-            margin-left: 1.44rem;
+            margin-left: 23px;
         }
         #para2{
-            margin-left: 1.06rem;
+            margin-left: 17px;
         }
         #para3{
-            margin-left: 1.56rem;
+            margin-left: 25px;
         }
     }
 
@@ -142,8 +148,8 @@ body{
         line-height: 24px;
         letter-spacing: 4.8px;
         text-transform: uppercase;
-        margin-top: 7.9rem;
-        margin-bottom: 1.31rem;
+        margin-top: 127px;
+        margin-bottom: 21px;
     }
     .para-part>h2{
         font-family: DM Serif Display;
@@ -151,7 +157,7 @@ body{
         font-style: normal;
         font-weight: 400;
         line-height: 64px;
-        margin-bottom: 1.8rem;
+        margin-bottom: 29px;
     }
     .para-part>p{
         font-family: DM Sans;
@@ -159,7 +165,7 @@ body{
         font-style: normal;
         font-weight: 400;
         line-height: 32px; 
-        margin-bottom: 1.44rem;
+        margin-bottom: 23px;
     }
 
    
@@ -176,34 +182,130 @@ body{
         line-height: 24px;
     }
     .buttons>button:nth-child(1){
-        width: 10.625rem;
-        height: 3rem;
-        flex-shrink: 0;
-        border-radius: 0.3125rem;
+        width: 170px;
+        height: 48px;
+        border-radius: 5px;
         background: var(--Primary_1, #434CCC);
         color: #FFF;
         text-align: center;
         font-family: DM Sans;
-        font-size: 1rem;
+        font-size: 16px;
         font-style: normal;
         font-weight: 700;
-        line-height: 1.5rem;
+        line-height: 24px;
         border: 1px solid #434CCC;
+        transition-duration: 0.3s;
+    }
+    .buttons>button:nth-child(1):hover{
+        cursor: pointer;
+        background-color: #333bac;
+        transform: scale(1.05);
     }
     .buttons>button:nth-child(2){
-        width: 10.625rem;
-        height: 3rem;
-        flex-shrink: 0;
+        width: 170px;
+        height: 48px;
         color: #434CCC;
         text-align: center;
         font-family: DM Sans;
-        font-size: 1rem;
+        font-size: 16px;
         font-style: normal;
         font-weight: 700;
-        line-height: 1.5rem;
-        border-radius: 0.3125rem;
+        line-height: 24px;
+        border-radius: 5px;
         border: 1px solid #434CCC;
-        margin-left: 1.87rem;
+        margin-left: 30px;
+        transition-duration: 0.3s;
+    }
+    .buttons>button:nth-child(2):hover{
+        cursor: pointer;
+        background-color: rgb(233, 234, 250);
+        transform: scale(1.05);
     }
 }
 
+.blue-part{
+    width: 1440px;
+    height: 480px;
+    background-color: #434CCC;
+    text-align: center;
+    box-sizing: border-box;
+    padding : 76px 0 89px 0;
+    h2{
+        color: var(--Text_White, #FFF);
+        text-align: center;
+        font-family: DM Serif Display;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 64px;
+        margin-bottom: 29px;
+    }
+    #small-para{
+        color: var(--Text_White, #FFF);
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; 
+        margin-bottom: 35px;
+    }
+    .analytics{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        margin: 0 135px;
+        h1{
+            color: var(--Text_White, #FFF);
+            text-align: center;
+            font-family: DM Serif Display;
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 64px;
+        }
+        p{
+            color: var(--text-white-50, rgba(255, 255, 255, 0.50));
+            text-align: center;
+            font-family: DM Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+   
+}
+
+@media all and (max-width: 375px){
+    .vivendo-card{
+        height: auto;
+        padding: 0 15px;
+        .cards{
+           flex-direction: column;
+           align-items: center;
+           padding: 0 15px;
+           margin: 16px 0;
+           .home, .truck, .time{
+            width: 346px;
+            height: 416px;
+           }
+        }
+    }
+    
+    .welcome-part{
+        height: auto;
+        padding: 0 15px;
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+
+    .blue-part{
+        height: auto;
+        padding: 0 15px;
+        .analytics{
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+    
+}
