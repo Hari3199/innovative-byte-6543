@@ -398,5 +398,236 @@
     width: 100%;
   }
 }
+#Vim-container {
+  background: rgba(67, 76, 204, 0.0515);
+  display: flex;
+  width: 1440px;
+  padding: 111px 135px;
+  padding-bottom: 129px;
+}
+#Vim-container #left-vim {
+  margin-right: 79px;
+}
+#Vim-container #left-vim > h5 {
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+#Vim-container #left-vim > h2 {
+  color: var(--Text_Black, #000);
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  line-height: 64px;
+  margin-top: 21px;
+}
+#Vim-container .vim-para {
+  margin-top: 29px;
+  max-width: 561px;
+}
+#Vim-container #vim-button {
+  color: #434CCC;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  border: 1px solid rgba(67, 76, 204, 0.3);
+  padding: 13px 55px;
+  margin-top: 33px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+#Vim-container #vim-button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+#Vim-container .vim-para > p {
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 32px;
+}
+#Vim-container #right-vim-cont {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 57px;
+  column-gap: 40px;
+  padding-top: 67px;
+}
+#Vim-container #right-vim-cont > div {
+  display: flex;
+  gap: 30px;
+}
+#Vim-container #right-vim-cont > div > div > h4 {
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 32px;
+  margin-bottom: 7px;
+}
+#Vim-container #right-vim-cont > div > div > img {
+  transition: 0.3s;
+}
+#Vim-container #right-vim-cont > div > div > img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+#Vim-container #right-vim-cont > div > div > p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  /* 150% */
+}
+
+hr {
+  opacity: 0.3;
+}
+
+#tantas-container {
+  background: rgba(67, 76, 204, 0.0515);
+  display: flex;
+  padding: 135px;
+  width: 1440px;
+  align-items: center;
+  padding-bottom: 129px;
+}
+#tantas-container img {
+  transition: 0.3s;
+}
+#tantas-container img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#tantas-right {
+  margin-left: 135px;
+}
+
+#tantas-right > h5 {
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  margin-bottom: 21px;
+}
+
+#tantas-btn {
+  color: #FFF;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  line-height: 24px;
+  background: #434CCC;
+  border-radius: 5px;
+  padding: 12px 43.5px;
+  transition: 0.3s;
+}
+
+#tantas-btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#tantas-right > h2 {
+  color: var(--Text_Black, #000);
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  line-height: 64px;
+  margin-bottom: 29px;
+}
+
+#tantas-right > p {
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 32px;
+  width: 470px;
+}
+
+@media all and (max-width: 375px) {
+  #Vim-container {
+    padding-left: 14px;
+    width: 375px;
+    flex-direction: column;
+    padding: 63px 14px 49px 15px;
+  }
+  #Vim-container #right-vim-cont > div {
+    gap: 35px;
+  }
+  #Vim-container #right-vim-cont > div > div > p {
+    height: 77px;
+  }
+  #Vim-container #left-vim {
+    margin-right: 0;
+  }
+  #Vim-container #left-vim h2 {
+    width: 171px;
+    font-family: DM Serif Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+  }
+  #Vim-container .right-vim #right-vim-cont {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 12px;
+  }
+  .vim-para {
+    width: 346px;
+  }
+  #tantas-container {
+    flex-direction: column;
+    padding: 10.51px 14px;
+    width: 375px;
+  }
+  #tantas-container img {
+    width: 350px;
+  }
+  #tantas-right {
+    margin-left: 0px;
+  }
+  #tantas-right > h5 {
+    margin-top: 51.29px;
+    margin-bottom: 19px;
+  }
+  #tantas-right > h2 {
+    font-family: DM Serif Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    width: 294px;
+    margin-top: 19px;
+    margin-bottom: 31px;
+  }
+  #tantas-right > p {
+    width: 346px;
+  }
+  #tantas-btn {
+    margin-bottom: 80px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
