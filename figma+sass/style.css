@@ -240,6 +240,269 @@
   width: 100%;
 }
 
+.vivendo-card {
+  background-color: #f5f6fd;
+  width: 1440px;
+  height: 768px;
+  box-sizing: border-box;
+  padding: 60px 135px 80px 135px;
+  display: flex;
+  flex-direction: column;
+}
+.vivendo-card #heading {
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  margin-bottom: 29px;
+}
+.vivendo-card #heading + p {
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 36px;
+}
+.vivendo-card .cards {
+  display: flex;
+  gap: 30px;
+}
+.vivendo-card .cards .home, .vivendo-card .cards .truck, .vivendo-card .cards .time {
+  width: 370px;
+  height: 416px;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  padding: 0 32px;
+  transition-duration: 0.3s;
+}
+.vivendo-card .cards .home > div:nth-child(1) {
+  margin: 64px 0 54px 0;
+}
+.vivendo-card .cards .truck > div:nth-child(1) {
+  margin: 73px 0 63px 0;
+}
+.vivendo-card .cards .time > div:nth-child(1) {
+  margin: 58px 0 48px 0;
+}
+.vivendo-card .cards .images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vivendo-card .cards .card-heading {
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 15px;
+}
+.vivendo-card .cards .para {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+.vivendo-card .cards .learn {
+  display: flex;
+  align-items: center;
+}
+.vivendo-card .cards .learn p {
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 18px 0 21px 0;
+}
+.vivendo-card .cards .learn img {
+  margin-left: 7px;
+}
+.vivendo-card .cards .home:hover, .vivendo-card .cards .truck:hover, .vivendo-card .cards .time:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.welcome-part {
+  background-color: #f5f6fd;
+  width: 1440px;
+  height: 768px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.welcome-part .image-part {
+  height: 653px;
+  width: 981px;
+  margin: 29px 0 86px 0;
+  box-sizing: border-box;
+}
+.welcome-part .para-part {
+  height: 100%;
+  margin-right: 135px;
+  margin-left: -5.1rem;
+  box-sizing: border-box;
+}
+.welcome-part .para-part .logos {
+  margin-bottom: 49px;
+}
+.welcome-part .para-part .logos > div:nth-child(1) {
+  margin-bottom: 7px;
+}
+.welcome-part .para-part .logos > div:nth-child(2) {
+  margin-bottom: 10px;
+}
+.welcome-part .para-part #para1 {
+  margin-left: 23px;
+}
+.welcome-part .para-part #para2 {
+  margin-left: 17px;
+}
+.welcome-part .para-part #para3 {
+  margin-left: 25px;
+}
+.welcome-part .para-part > h5 {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  margin-top: 127px;
+  margin-bottom: 21px;
+}
+.welcome-part .para-part > h2 {
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  margin-bottom: 29px;
+}
+.welcome-part .para-part > p {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 23px;
+}
+.welcome-part .img-text {
+  display: flex;
+  align-items: center;
+}
+.welcome-part .img-text > p {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.welcome-part .buttons > button:nth-child(1) {
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  background: var(--Primary_1, #434CCC);
+  color: #FFF;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  border: 1px solid #434CCC;
+  transition-duration: 0.3s;
+}
+.welcome-part .buttons > button:nth-child(1):hover {
+  cursor: pointer;
+  background-color: #333bac;
+  transform: scale(1.05);
+}
+.welcome-part .buttons > button:nth-child(2) {
+  width: 170px;
+  height: 48px;
+  color: #434CCC;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  border-radius: 5px;
+  border: 1px solid #434CCC;
+  margin-left: 30px;
+  transition-duration: 0.3s;
+}
+.welcome-part .buttons > button:nth-child(2):hover {
+  cursor: pointer;
+  background-color: rgb(233, 234, 250);
+  transform: scale(1.05);
+}
+
+.blue-part {
+  width: 1440px;
+  height: 480px;
+  background-color: #434CCC;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 76px 0 89px 0;
+}
+.blue-part h2 {
+  color: var(--Text_White, #FFF);
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  margin-bottom: 29px;
+}
+.blue-part #small-para {
+  color: var(--Text_White, #FFF);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 35px;
+}
+.blue-part .analytics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin: 0 135px;
+}
+.blue-part .analytics h1 {
+  color: var(--Text_White, #FFF);
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+}
+.blue-part .analytics p {
+  color: var(--text-white-50, rgba(255, 255, 255, 0.5));
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
 @media all and (max-width: 375px) {
   .header1_h {
     padding: 0;
@@ -398,6 +661,7 @@
     width: 100%;
   }
 }
+
 #Vim-container {
   background: rgba(67, 76, 204, 0.0515);
   display: flex;
@@ -627,6 +891,76 @@ hr {
   }
   #tantas-btn {
     margin-bottom: 80px;
+=======
+@media all and (max-width: 375px) {
+  .vivendo-card {
+    width: 375px;
+    height: 1632px;
+    box-sizing: border-box;
+    padding: 0 15px;
+    padding-bottom: 80px;
+  }
+  .vivendo-card #heading {
+    margin: 42px 0 31px 0;
+  }
+  .vivendo-card .p1_r {
+    margin-bottom: 50px;
+  }
+  .vivendo-card .cards {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+    margin: 16px 0;
+  }
+  .vivendo-card .cards .home, .vivendo-card .cards .truck, .vivendo-card .cards .time {
+    margin-bottom: 16px;
+  }
+  .welcome-part {
+    height: 1056px;
+    width: 461px;
+    box-sizing: border-box;
+    padding: 0 15px;
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+  .welcome-part .image-part {
+    width: 461px;
+    height: auto;
+  }
+  .welcome-part .image-part img {
+    width: 100%;
+  }
+  .welcome-part .para-part {
+    width: 461px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    margin-top: 0;
+    margin-right: -20px;
+  }
+  .welcome-part .para-part h5 {
+    margin-top: 0;
+  }
+  .welcome-part #lorem_r {
+    margin: 19px 0 31px 0;
+  }
+  .welcome-part .logos {
+    margin: 44px 0 50px 0;
+  }
+  .welcome-part .buttons > button:nth-child(2) {
+    margin-left: 7px;
+  }
+  .blue-part {
+    height: 896px;
+    width: 375px;
+    box-sizing: border-box;
+    padding: 74px 15px 73px 15px;
+  }
+  .blue-part #small-para {
+    margin: 31px 0;
+  }
+  .blue-part .analytics {
+    grid-template-columns: repeat(1, 1fr);
+
   }
 }
 
