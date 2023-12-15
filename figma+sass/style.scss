@@ -270,14 +270,7 @@ $primary_1: #434CCC;
       width: 100%;
      }
   }
-  
-
-    
-
-
-  // haresh media
-
-  
+ 
 // media Haresh
 
   @media all and (max-width:375px){
@@ -307,7 +300,8 @@ $primary_1: #434CCC;
         transform: scale(1.1);
         cursor: pointer;
       }
-
+    }
+  }
 
     // Haresh Media Query
 
@@ -352,7 +346,8 @@ $primary_1: #434CCC;
       line-height: 32px;
 
     }
-  
+  }
+
     
   // Haresh media
 
@@ -1644,7 +1639,4 @@ footer {
 
   
 }
-
-
-
-
+}
