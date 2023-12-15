@@ -32,3 +32,25 @@
 
 
 /* <!-- <Sumit's Section> --> */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.inp{
+   
+    width:400px;
+}
+.foot{
+    gap:35px;
+    background-color:rgb(231,240,245)
+
+   
+}
+.li-gap{
+    gap:20px;
+}
+
+ul{
+    line-height: 2.5rem;
+}
