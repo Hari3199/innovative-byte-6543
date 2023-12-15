@@ -1,5 +1,95 @@
 /* <!-- <Rantu's Section> --> */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Preahvihear;
+}
+.top-bar{
+    width: 100%;
+    height: 40px;
+    background-color: #eff4f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 12px;
+}
+.top-bar>p{
+    font-size: 12px;
+}
+#logo{
+    width: 85px;
+    margin-left: 30px;
+}
+#logo:hover{
+    cursor: pointer;
+}
+#nav5{
+    height: 82px;
+}
+.navbar-nav>li>a{
+   margin: 0 10px;
+}
+.navbar-nav>li>a:hover{
+    cursor: pointer;
+    font-weight: bolder;
+    transform: scale(1.05);
+    border-bottom: 2px solid #ed1c24;
+}
+/* #hover_r{
+    display: none;
+}
+#category_r:hover{
+    display: block;
+} */
+#navbarSupportedContent{
+    margin-left: 100px;
+}
+#form-part{
+    margin-right: 10px;
+}
+#inp{
+    width: 250px;
+    background-color: #eef0f3;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-size: medium;
+}
 
+#icon>i{
+    margin: 10px;
+    transform: scale(1.5);
+    color: #1d1c1c;
+    margin-right: 1px;
+    cursor: pointer;
+}
+#hover_r{
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    padding : 30px 0;
+}
+#hover_r>div>div{
+        display: flex;
+        align-items: center;
+        padding: 5px 0;
+        transition-duration: .5s;
+}
+#hover_r>div>div:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+#hover_r>div>div>img{
+    width: 50px;
+    height: 50px;
+}
+#hover_r>div>div>p{
+    font-size: 12px;
+    margin-left: 20px;
+    color: #474545;
+}
 
 
 
