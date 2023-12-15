@@ -12,7 +12,14 @@
 
 
 /* <!-- <Haresh's Section> --> */
-
+        .image_h{
+            height: 269px;
+        }
+        .image_h1{
+            width: 50px;
+            overflow: hidden;
+            margin-top: -10px;
+        }
 
 
 
