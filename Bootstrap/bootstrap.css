@@ -21,8 +21,16 @@
 
 
 /* <!-- <Sameer's Section> --> */
+.image_S{
+    width: 267px;
+    height: 267px;
+}
 
-
+.image_S1{
+    width: 50px;
+    overflow: hidden;
+    margin-top: -10px;
+}
 
 
 
