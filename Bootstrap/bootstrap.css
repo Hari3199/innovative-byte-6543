@@ -12,14 +12,135 @@
 
 
 /* <!-- <Haresh's Section> --> */
-        .image_h{
-            height: 269px;
-        }
-        .image_h1{
-            width: 50px;
-            overflow: hidden;
-            margin-top: -10px;
-        }
+*{
+    margin: 0;
+    padding: 0;
+}
+.image_h{
+    /* width: 267px; */
+    height: 267px;
+}
+.image_h1{
+    width: 50px;
+    overflow: hidden;
+    margin-top: -10px;
+}
+.image_h1b{
+    width: 50px;
+    overflow: hidden;
+    margin-top: 2px;
+}
+.card-body{
+    position: relative;
+}
+.playback_h{
+    border: 1px solid white;
+    width: 76%;
+    margin: auto;
+    height: 25px;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 50px;
+    text-align: center;
+    background-color: rgb(252,197,11);
+    position: absolute;
+    bottom: 162px;
+    left: 12%;
+}
+.Availabe_h{
+    width: 45%;
+    height: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    position: absolute;
+    bottom: 410px;
+    left: 0;
+    border: none;
+}
+.Availabe_h3{
+    width: 30%;
+    height: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    position: absolute;
+    bottom: 410px;
+    left: 0;
+    border: none;
+}
+.btn-hover_h:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.card-hover_h{
+    transition: 0.3s;
+}
+.card-hover_h:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.best-seller{
+    width: 90%;
+    margin: auto;
+}
+.best-seller>p{
+    font-size: 24px;
+    /* font-weight: bold; */
+    padding-top: 20px;
+    transition: .5s;
+}
+.best-seller>p:hover{
+    cursor: pointer;
+    font-weight: bolder ;
+}
+#best_h{
+    font-weight: bold;
+}
+#best_h:hover{
+    color: #ED1C24;
+}
+
+.small_items_h:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#Shipping_h:hover{
+    transform: scale(1.05);
+    font-weight: bold;
+    color: #ED1C24;
+    cursor: pointer;
+}
+.image_h{
+    width: 100%;
+}
+.ayyar_h{
+    width: 100%;
+}
+.ayyar_h:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.view_all_h:hover{
+   transform: scale(1.05);
+   color: #ED1C24;
+   cursor: pointer;
+}
+#pandya_h:hover{
+   transform: scale(1.05);
+   color: #ED1C24;
+   cursor: pointer;
+}
+
+
 
 
 
