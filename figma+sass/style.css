@@ -672,7 +672,7 @@
   .vivendo-card {
     width: 375px;
     height: 1632px;
-    padding: 0 15px;
+    padding: 0 14px;
   }
   .vivendo-card .cards {
     width: 346px;
@@ -688,7 +688,7 @@
   .welcome-part {
     width: 375px;
     height: 1056px;
-    padding: 0 15px;
+    padding: 0 14px;
     flex-direction: column;
     align-items: center;
   }
@@ -754,7 +754,7 @@
   .blue-part {
     width: 375px;
     height: 896px;
-    padding: 0 15px;
+    padding: 0 14px;
   }
   .blue-part h2 {
     padding-top: 74px;
@@ -1063,8 +1063,9 @@ hr {
   background: #428DFC;
 }
 #section-1_S #image-clip1 {
-  width: 375px;
-  margin-left: 30px;
+  width: 1131px;
+  margin-left: 20px;
+  overflow: hidden;
 }
 #section-1_S #image-clip1 img {
   width: 100%;

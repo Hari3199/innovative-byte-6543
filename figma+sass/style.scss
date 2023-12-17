@@ -739,7 +739,7 @@ $primary_1: #434CCC;
     .vivendo-card{
         width: 375px;
         height: 1632px;
-        padding: 0 15px;
+        padding: 0 14px;
         .cards{
             width: 346px;
             height: 416px;
@@ -755,7 +755,7 @@ $primary_1: #434CCC;
     .welcome-part{
         width: 375px;
         height: 1056px;
-        padding: 0 15px;
+        padding: 0 14px;
         flex-direction: column;
         align-items: center;
         .image-part{
@@ -821,7 +821,7 @@ $primary_1: #434CCC;
     .blue-part{
         width: 375px;
         height: 896px;
-        padding: 0 15px;
+        padding: 0 14px;
         h2{
             padding-top: 74px;
         }
@@ -1203,15 +1203,14 @@ hr {
   }
 
   #image-clip1 {
-      width: 375px;
-      margin-left: 30px;
+      width: 1131px;
+      margin-left: 20px;
+      overflow: hidden;
       img {
           width: 100%;
       }
   }
 }
-
-
 
 #section-2_S {
   background-color: #ffdd78;
