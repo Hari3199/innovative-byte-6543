@@ -1,4 +1,3 @@
-/* <!-- <Rantu's Section> --> */
 *{
     margin: 0;
     padding: 0;
@@ -19,6 +18,7 @@
 }
 .top-bar>p{
     font-size: 12px;
+    text-align: center;
 }
 #logo{
     width: 85px;
@@ -69,39 +69,9 @@
     margin-right: 1px;
     cursor: pointer;
 }
-.hover_r{
-    width: 90%;
-    height: auto;
-    display: flex;
-    margin: auto;
-    justify-content: space-around;
-    padding : 30px 0;
-    margin-top: 122px;
-    display: none;
-}
-.hover_rr:hover{
-    display: block;
-}
 
-.hover_r>div>div{
-        display: flex;
-        align-items: center;
-        padding: 5px 0;
-        transition-duration: .5s;
-}
-.hover_r>div>div:hover{
-    cursor: pointer;
-    transform: scale(1.05);
-}
-.hover_r>div>div>img{
-    width: 50px;
-    height: 50px;
-}
-.hover_r>div>div>p{
-    font-size: 12px;
-    margin-left: 20px;
-    color: #474545;
-}
+
+
 #carouselExampleIndicators{
     margin-top: 122px;
 }
@@ -132,23 +102,16 @@
     gap: 20px;
     /* text-align: center; */
 }
-.video-part_r>div>video{
+
+.para_r>p{
+    font-weight: bolder;
     transition-duration: .5s;
 }
-.video-part_r>div>video:hover{
+.para_r>p:hover{
     cursor: pointer;
     transform: scale(1.1);
 }
-.video-part_r>div>p{
-    font-weight: bolder;
-}
-.video-part_r>div>p:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-}
-.video-part_r>div>video{
-    border-radius: 20px;
-}
+
 .custom-border-radius {
     border-radius: 20px;
 }
@@ -165,7 +128,6 @@
 .offers>p:hover{
     cursor: pointer;
     font-weight: bolder;
-    text-decoration: underline;
 }
 #offers_r{
     font-weight:bold;
@@ -173,48 +135,28 @@
 #offers_r:hover{
     color: #ed1c24;
 }
-#view-all_r{
-    font-weight: bold;
-    color: #2F5B96;
-    font-size: 14px;
-}
-.bar-image{
+.view_all_r:hover{
+    transform: scale(1.05);
+    color: #ED1C24;
+    cursor: pointer;
+ }
+#bar-image{
     width: 90%;
-    height: 100px;
+    height:128px;
     margin: auto;
-    background-image: url('https://www.boat-lifestyle.com/cdn/shop/files/Strip_Web_copy_1_1600x.png?v=1701415389');
-    background-size: cover;
+    position:relative;
+}
+#image2_r>img{
+    width: 100%;
     border-radius: 10px;
 }
+.img-text_r{
+    position: absolute;
+    color: white;
+   text-align: center;
+    top: 40%;
+    left: 25%;
+    right: 25%;
+    bottom: 30%;
+}
 
-
-
-
-
-
-
-
-
-
-
-/* <!-- <Haresh's Section> --> */
-
-
-
-
-
-
-
-
-/* <!-- <Sameer's Section> --> */
-
-
-
-
-
-
-
-
-
-
-/* <!-- <Sumit's Section> --> */
