@@ -62,7 +62,7 @@
     border: none;
 }
 .Availabe_h3{
-    width: 30%;
+    width: 40%;
     height: 20px;
     font-size: 11px;
     font-weight: 600;
@@ -88,17 +88,17 @@
     transform: scale(1.04);
 }
 
-.best-seller{
+.best-seller_h{
     width: 90%;
     margin: auto;
 }
-.best-seller>p{
+.best-seller_h>p{
     font-size: 24px;
     /* font-weight: bold; */
     padding-top: 20px;
     transition: .5s;
 }
-.best-seller>p:hover{
+.best-seller_h>p:hover{
     cursor: pointer;
     font-weight: bolder ;
 }
