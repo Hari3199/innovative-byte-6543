@@ -23,6 +23,12 @@
   font-style: normal;
   font-weight: 400;
   line-height: 48px; /* 120% */
+  margin-top: 16px;
+  transition: 0.3s;
+}
+.header1_h h3:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 .header1_h .link_h {
   display: flex;
@@ -114,6 +120,7 @@
   padding: 0px 135px;
   display: flex;
   background: rgba(67, 76, 204, 0.0515);
+  overflow: hidden;
 }
 
 .left_h .text_h {
@@ -238,269 +245,6 @@
 }
 .right_h img {
   width: 100%;
-}
-
-.vivendo-card {
-  background-color: #f5f6fd;
-  width: 1440px;
-  height: 768px;
-  box-sizing: border-box;
-  padding: 60px 135px 80px 135px;
-  display: flex;
-  flex-direction: column;
-}
-.vivendo-card #heading {
-  text-align: center;
-  font-family: DM Serif Display;
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 64px;
-  margin-bottom: 29px;
-}
-.vivendo-card #heading + p {
-  text-align: center;
-  font-family: DM Sans;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
-  margin-bottom: 36px;
-}
-.vivendo-card .cards {
-  display: flex;
-  gap: 30px;
-}
-.vivendo-card .cards .home, .vivendo-card .cards .truck, .vivendo-card .cards .time {
-  width: 370px;
-  height: 416px;
-  border-radius: 5px;
-  background: #FFF;
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
-  padding: 0 32px;
-  transition-duration: 0.3s;
-}
-.vivendo-card .cards .home > div:nth-child(1) {
-  margin: 64px 0 54px 0;
-}
-.vivendo-card .cards .truck > div:nth-child(1) {
-  margin: 73px 0 63px 0;
-}
-.vivendo-card .cards .time > div:nth-child(1) {
-  margin: 58px 0 48px 0;
-}
-.vivendo-card .cards .images {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.vivendo-card .cards .card-heading {
-  font-family: DM Serif Display;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
-  margin-bottom: 15px;
-}
-.vivendo-card .cards .para {
-  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
-  font-family: DM Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  margin-bottom: 25px;
-}
-.vivendo-card .cards .learn {
-  display: flex;
-  align-items: center;
-}
-.vivendo-card .cards .learn p {
-  color: var(--Text_Black, #000);
-  font-family: DM Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  margin: 18px 0 21px 0;
-}
-.vivendo-card .cards .learn img {
-  margin-left: 7px;
-}
-.vivendo-card .cards .home:hover, .vivendo-card .cards .truck:hover, .vivendo-card .cards .time:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-}
-
-.welcome-part {
-  background-color: #f5f6fd;
-  width: 1440px;
-  height: 768px;
-  display: flex;
-  align-items: center;
-  box-sizing: border-box;
-}
-.welcome-part .image-part {
-  height: 653px;
-  width: 981px;
-  margin: 29px 0 86px 0;
-  box-sizing: border-box;
-}
-.welcome-part .para-part {
-  height: 100%;
-  margin-right: 135px;
-  margin-left: -5.1rem;
-  box-sizing: border-box;
-}
-.welcome-part .para-part .logos {
-  margin-bottom: 49px;
-}
-.welcome-part .para-part .logos > div:nth-child(1) {
-  margin-bottom: 7px;
-}
-.welcome-part .para-part .logos > div:nth-child(2) {
-  margin-bottom: 10px;
-}
-.welcome-part .para-part #para1 {
-  margin-left: 23px;
-}
-.welcome-part .para-part #para2 {
-  margin-left: 17px;
-}
-.welcome-part .para-part #para3 {
-  margin-left: 25px;
-}
-.welcome-part .para-part > h5 {
-  font-family: DM Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 4.8px;
-  text-transform: uppercase;
-  margin-top: 127px;
-  margin-bottom: 21px;
-}
-.welcome-part .para-part > h2 {
-  font-family: DM Serif Display;
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 64px;
-  margin-bottom: 29px;
-}
-.welcome-part .para-part > p {
-  font-family: DM Sans;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
-  margin-bottom: 23px;
-}
-.welcome-part .img-text {
-  display: flex;
-  align-items: center;
-}
-.welcome-part .img-text > p {
-  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
-  font-family: DM Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-}
-.welcome-part .buttons > button:nth-child(1) {
-  width: 170px;
-  height: 48px;
-  border-radius: 5px;
-  background: var(--Primary_1, #434CCC);
-  color: #FFF;
-  text-align: center;
-  font-family: DM Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  border: 1px solid #434CCC;
-  transition-duration: 0.3s;
-}
-.welcome-part .buttons > button:nth-child(1):hover {
-  cursor: pointer;
-  background-color: #333bac;
-  transform: scale(1.05);
-}
-.welcome-part .buttons > button:nth-child(2) {
-  width: 170px;
-  height: 48px;
-  color: #434CCC;
-  text-align: center;
-  font-family: DM Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  border-radius: 5px;
-  border: 1px solid #434CCC;
-  margin-left: 30px;
-  transition-duration: 0.3s;
-}
-.welcome-part .buttons > button:nth-child(2):hover {
-  cursor: pointer;
-  background-color: rgb(233, 234, 250);
-  transform: scale(1.05);
-}
-
-.blue-part {
-  width: 1440px;
-  height: 480px;
-  background-color: #434CCC;
-  text-align: center;
-  box-sizing: border-box;
-  padding: 76px 0 89px 0;
-}
-.blue-part h2 {
-  color: var(--Text_White, #FFF);
-  text-align: center;
-  font-family: DM Serif Display;
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 64px;
-  margin-bottom: 29px;
-}
-.blue-part #small-para {
-  color: var(--Text_White, #FFF);
-  text-align: center;
-  font-family: DM Sans;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
-  margin-bottom: 35px;
-}
-.blue-part .analytics {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
-  margin: 0 135px;
-}
-.blue-part .analytics h1 {
-  color: var(--Text_White, #FFF);
-  text-align: center;
-  font-family: DM Serif Display;
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 64px;
-}
-.blue-part .analytics p {
-  color: var(--text-white-50, rgba(255, 255, 255, 0.5));
-  text-align: center;
-  font-family: DM Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
 }
 
 @media all and (max-width: 375px) {
@@ -651,14 +395,612 @@
     text-align: left;
   }
   .right_h {
-    width: 647px;
+    width: 375px;
     height: 431px;
     margin-top: -8px;
     margin-bottom: 21px;
-    margin-left: -200px;
+    margin-left: -50px;
   }
   .right_h img {
     width: 100%;
+  }
+}
+.vivendo-card {
+  background-color: #F5F6FD;
+  width: 1440px;
+  height: 768px;
+  box-sizing: border-box;
+  padding: 60px 135px 80px 135px;
+  display: flex;
+  flex-direction: column;
+}
+.vivendo-card #heading {
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  margin-bottom: 29px;
+}
+.vivendo-card #heading + p {
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 36px;
+}
+.vivendo-card .cards {
+  display: flex;
+  gap: 30px;
+}
+.vivendo-card .cards .home, .vivendo-card .cards .truck, .vivendo-card .cards .time {
+  width: 370px;
+  height: 416px;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  padding: 0 32px;
+  transition-duration: 0.3s;
+}
+.vivendo-card .cards .home > div:nth-child(1) {
+  margin: 64px 0 54px 0;
+}
+.vivendo-card .cards .truck > div:nth-child(1) {
+  margin: 73px 0 63px 0;
+}
+.vivendo-card .cards .time > div:nth-child(1) {
+  margin: 58px 0 48px 0;
+}
+.vivendo-card .cards .images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vivendo-card .cards .card-heading {
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 15px;
+}
+.vivendo-card .cards .para {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+.vivendo-card .cards .learn {
+  display: flex;
+  align-items: center;
+}
+.vivendo-card .cards .learn p {
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 18px 0 21px 0;
+}
+.vivendo-card .cards .learn img {
+  margin-left: 7px;
+}
+.vivendo-card .cards .home:hover, .vivendo-card .cards .truck:hover, .vivendo-card .cards .time:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.welcome-part {
+  background-color: #F5F6FD;
+  width: 1440px;
+  height: 768px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.welcome-part .image-part {
+  height: 653px;
+  width: 981px;
+  margin: 29px 0 86px 0;
+  box-sizing: border-box;
+}
+.welcome-part .para-part {
+  height: 100%;
+  margin-right: 135px;
+  margin-left: -5.1rem;
+  box-sizing: border-box;
+}
+.welcome-part .para-part .logos {
+  margin-bottom: 49px;
+}
+.welcome-part .para-part .logos > div:nth-child(1) {
+  margin-bottom: 7px;
+}
+.welcome-part .para-part .logos > div:nth-child(2) {
+  margin-bottom: 10px;
+}
+.welcome-part .para-part #para1 {
+  margin-left: 23px;
+}
+.welcome-part .para-part #para2 {
+  margin-left: 17px;
+}
+.welcome-part .para-part #para3 {
+  margin-left: 25px;
+}
+.welcome-part .para-part > h5 {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  margin-top: 127px;
+  margin-bottom: 21px;
+}
+.welcome-part .para-part > h2 {
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  margin-bottom: 29px;
+}
+.welcome-part .para-part > p {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 23px;
+}
+.welcome-part .img-text {
+  display: flex;
+  align-items: center;
+}
+.welcome-part .img-text > p {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.welcome-part .buttons > button:nth-child(1) {
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  background: var(--Primary_1, #434CCC);
+  color: #FFF;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  border: 1px solid #434CCC;
+  transition-duration: 0.3s;
+}
+.welcome-part .buttons > button:nth-child(1):hover {
+  cursor: pointer;
+  background-color: #333BAC;
+  transform: scale(1.05);
+}
+.welcome-part .buttons > button:nth-child(2) {
+  width: 170px;
+  height: 48px;
+  color: #434CCC;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  border-radius: 5px;
+  border: 1px solid #434CCC;
+  margin-left: 30px;
+  transition-duration: 0.3s;
+}
+.welcome-part .buttons > button:nth-child(2):hover {
+  cursor: pointer;
+  background-color: rgb(233, 234, 250);
+  transform: scale(1.05);
+}
+
+.blue-part {
+  width: 1440px;
+  height: 480px;
+  background-color: #434CCC;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 76px 0 89px 0;
+}
+.blue-part h2 {
+  color: var(--Text_White, #FFF);
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  margin-bottom: 29px;
+}
+.blue-part #small-para {
+  color: var(--Text_White, #FFF);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 35px;
+}
+.blue-part .analytics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin: 0 135px;
+}
+.blue-part .analytics h1 {
+  color: var(--Text_White, #FFF);
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+}
+.blue-part .analytics p {
+  color: var(--text-white-50, rgba(255, 255, 255, 0.5));
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@media all and (max-width: 375px) {
+  .vivendo-card {
+    width: 375px;
+    height: 1632px;
+    padding: 0 15px;
+  }
+  .vivendo-card .cards {
+    width: 346px;
+    height: 416px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+  }
+  .vivendo-card .cards .home, .vivendo-card .cards .truck, .vivendo-card .cards .time {
+    width: 346px;
+    height: 416px;
+  }
+  .welcome-part {
+    width: 375px;
+    height: 1056px;
+    padding: 0 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .welcome-part .image-part {
+    width: 375px;
+    overflow: hidden;
+    margin-bottom: 0;
+  }
+  .welcome-part .image-part img {
+    width: 346px;
+  }
+  .welcome-part .para-part {
+    margin: 0;
+  }
+  .welcome-part .para-part h5 {
+    margin-top: 0;
+    margin-bottom: 19px;
+    color: var(--Text_Black, #000);
+    /* H5 */
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+  }
+  .welcome-part .para-part h2 {
+    margin-bottom: 31px;
+    color: var(--Text_Black, #000);
+    /* H3 */
+    font-family: DM Serif Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 120% */
+  }
+  .welcome-part .para-part #p-part-para_r {
+    margin-bottom: 44px;
+    color: var(--Text_Black, #000);
+    /* Text_Big */
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+  }
+  .welcome-part .para-part .logos {
+    margin-bottom: 49px;
+  }
+  .welcome-part .para-part .buttons {
+    display: flex;
+  }
+  .welcome-part .para-part .buttons > button:nth-child(1) {
+    width: 170px;
+    height: 48px;
+  }
+  .welcome-part .para-part .buttons > button:nth-child(2) {
+    width: 170px;
+    height: 48px;
+    margin-left: 6px;
+  }
+  .blue-part {
+    width: 375px;
+    height: 896px;
+    padding: 0 15px;
+  }
+  .blue-part h2 {
+    padding-top: 74px;
+  }
+  .blue-part #small-para {
+    margin: 31px 0;
+  }
+  .blue-part .analytics > div {
+    width: 270px;
+  }
+  .blue-part .analytics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+#Vim-container {
+  background: rgba(67, 76, 204, 0.0515);
+  display: flex;
+  width: 1440px;
+  padding: 111px 135px;
+  padding-bottom: 129px;
+}
+#Vim-container #left-vim {
+  margin-right: 79px;
+}
+#Vim-container #left-vim > h5 {
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+#Vim-container #left-vim > h2 {
+  color: var(--Text_Black, #000);
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  line-height: 64px;
+  margin-top: 21px;
+}
+#Vim-container .vim-para {
+  margin-top: 29px;
+  max-width: 561px;
+}
+#Vim-container #vim-button {
+  color: #434CCC;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  border: 1px solid rgba(67, 76, 204, 0.3);
+  padding: 13px 55px;
+  margin-top: 33px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+#Vim-container #vim-button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+#Vim-container .vim-para > p {
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 32px;
+}
+#Vim-container #right-vim-cont {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 57px;
+  column-gap: 40px;
+  padding-top: 67px;
+}
+#Vim-container #right-vim-cont > div {
+  display: flex;
+  gap: 30px;
+}
+#Vim-container #right-vim-cont > div > div > h4 {
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 32px;
+  margin-bottom: 7px;
+}
+#Vim-container #right-vim-cont > div > div > img {
+  transition: 0.3s;
+}
+#Vim-container #right-vim-cont > div > div > img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+#Vim-container #right-vim-cont > div > div > p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  /* 150% */
+}
+
+hr {
+  opacity: 0.3;
+}
+
+#tantas-container {
+  background: rgba(67, 76, 204, 0.0515);
+  display: flex;
+  padding: 135px;
+  width: 1440px;
+  align-items: center;
+  padding-bottom: 129px;
+}
+#tantas-container img {
+  transition: 0.3s;
+}
+#tantas-container img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#tantas-right {
+  margin-left: 135px;
+}
+
+#tantas-right > h5 {
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  margin-bottom: 21px;
+}
+
+#tantas-btn {
+  color: #FFF;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  line-height: 24px;
+  background: #434CCC;
+  border-radius: 5px;
+  padding: 12px 43.5px;
+  transition: 0.3s;
+}
+
+#tantas-btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#tantas-right > h2 {
+  color: var(--Text_Black, #000);
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  line-height: 64px;
+  margin-bottom: 29px;
+}
+
+#tantas-right > p {
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 32px;
+  width: 470px;
+}
+
+@media all and (max-width: 375px) {
+  #Vim-container {
+    padding-left: 14px;
+    width: 375px;
+    flex-direction: column;
+    padding: 63px 14px 49px 15px;
+  }
+  #Vim-container #right-vim-cont > div {
+    gap: 35px;
+  }
+  #Vim-container #right-vim-cont > div > div > p {
+    height: 77px;
+  }
+  #Vim-container #left-vim {
+    margin-right: 0;
+  }
+  #Vim-container #left-vim h2 {
+    width: 171px;
+    font-family: DM Serif Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+  }
+  #Vim-container .right-vim #right-vim-cont {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 12px;
+  }
+  .vim-para {
+    width: 346px;
+  }
+  #tantas-container {
+    flex-direction: column;
+    padding: 10.51px 14px;
+    width: 375px;
+  }
+  #tantas-container img {
+    width: 350px;
+  }
+  #tantas-right {
+    margin-left: 0px;
+  }
+  #tantas-right > h5 {
+    margin-top: 51.29px;
+    margin-bottom: 19px;
+  }
+  #tantas-right > h2 {
+    font-family: DM Serif Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    width: 294px;
+    margin-top: 19px;
+    margin-bottom: 31px;
+  }
+  #tantas-right > p {
+    width: 346px;
+  }
+  #tantas-btn {
+    margin-bottom: 80px;
   }
 }
 #section-1_S {
@@ -721,7 +1063,8 @@
   background: #428DFC;
 }
 #section-1_S #image-clip1 {
-  width: 720px;
+  width: 375px;
+  margin-left: 30px;
 }
 #section-1_S #image-clip1 img {
   width: 100%;
@@ -994,7 +1337,7 @@ footer .footer-1 #img-contant .image-description p {
 }
 @media screen and (max-width: 375px) {
   #section-2_S {
-    width: 100%;
+    width: 375px;
     height: auto;
     gap: 50px;
     grid-template-columns: repeat(1, 1fr);
@@ -1044,7 +1387,7 @@ footer .footer-1 #img-contant .image-description p {
 @media all and (max-width: 375px) {
   footer {
     height: 844px;
-    max-width: 100%;
+    width: 375px;
     padding: 0px 15px 0px 14px;
     overflow: hidden;
   }
@@ -1058,309 +1401,7 @@ footer .footer-1 #img-contant .image-description p {
     overflow: hidden;
     height: 112px;
     padding: 0px 15px 0px 14px;
-    max-width: 100%;
-  }
-}
-
-#Vim-container {
-  background: rgba(67, 76, 204, 0.0515);
-  display: flex;
-  width: 1440px;
-  padding: 111px 135px;
-  padding-bottom: 129px;
-}
-#Vim-container #left-vim {
-  margin-right: 79px;
-}
-#Vim-container #left-vim > h5 {
-  color: var(--Text_Black, #000);
-  font-family: DM Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 4.8px;
-  text-transform: uppercase;
-}
-#Vim-container #left-vim > h2 {
-  color: var(--Text_Black, #000);
-  font-family: DM Serif Display;
-  font-size: 56px;
-  font-style: normal;
-  line-height: 64px;
-  margin-top: 21px;
-}
-#Vim-container .vim-para {
-  margin-top: 29px;
-  max-width: 561px;
-}
-#Vim-container #vim-button {
-  color: #434CCC;
-  text-align: center;
-  font-family: DM Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  border: 1px solid rgba(67, 76, 204, 0.3);
-  padding: 13px 55px;
-  margin-top: 33px;
-  border-radius: 5px;
-  transition: 0.3s;
-}
-#Vim-container #vim-button:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-}
-#Vim-container .vim-para > p {
-  color: var(--Text_Black, #000);
-  font-family: DM Sans;
-  font-size: 20px;
-  font-style: normal;
-  line-height: 32px;
-}
-#Vim-container #right-vim-cont {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  row-gap: 57px;
-  column-gap: 40px;
-  padding-top: 67px;
-}
-#Vim-container #right-vim-cont > div {
-  display: flex;
-  gap: 30px;
-}
-#Vim-container #right-vim-cont > div > div > h4 {
-  font-family: DM Serif Display;
-  font-size: 24px;
-  font-style: normal;
-  line-height: 32px;
-  margin-bottom: 7px;
-}
-#Vim-container #right-vim-cont > div > div > img {
-  transition: 0.3s;
-}
-#Vim-container #right-vim-cont > div > div > img:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-}
-#Vim-container #right-vim-cont > div > div > p {
-  font-family: DM Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
-  /* 150% */
-}
-
-hr {
-  opacity: 0.3;
-}
-
-#tantas-container {
-  background: rgba(67, 76, 204, 0.0515);
-  display: flex;
-  padding: 135px;
-  width: 1440px;
-  align-items: center;
-  padding-bottom: 129px;
-}
-#tantas-container img {
-  transition: 0.3s;
-}
-#tantas-container img:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-}
-
-#tantas-right {
-  margin-left: 135px;
-}
-
-#tantas-right > h5 {
-  color: var(--Text_Black, #000);
-  font-family: DM Sans;
-  font-size: 16px;
-  font-style: normal;
-  line-height: 24px;
-  letter-spacing: 4.8px;
-  text-transform: uppercase;
-  margin-bottom: 21px;
-}
-
-#tantas-btn {
-  color: #FFF;
-  text-align: center;
-  font-family: DM Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  border: none;
-  outline: none;
-  line-height: 24px;
-  background: #434CCC;
-  border-radius: 5px;
-  padding: 12px 43.5px;
-  transition: 0.3s;
-}
-
-#tantas-btn:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-}
-
-#tantas-right > h2 {
-  color: var(--Text_Black, #000);
-  font-family: DM Serif Display;
-  font-size: 56px;
-  font-style: normal;
-  line-height: 64px;
-  margin-bottom: 29px;
-}
-
-#tantas-right > p {
-  color: var(--Text_Black, #000);
-  font-family: DM Sans;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
-  margin-bottom: 32px;
-  width: 470px;
-}
-
-@media all and (max-width: 375px) {
-  #Vim-container {
-    padding-left: 14px;
     width: 375px;
-    flex-direction: column;
-    padding: 63px 14px 49px 15px;
-  }
-  #Vim-container #right-vim-cont > div {
-    gap: 35px;
-  }
-  #Vim-container #right-vim-cont > div > div > p {
-    height: 77px;
-  }
-  #Vim-container #left-vim {
-    margin-right: 0;
-  }
-  #Vim-container #left-vim h2 {
-    width: 171px;
-    font-family: DM Serif Display;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 48px;
-  }
-  #Vim-container .right-vim #right-vim-cont {
-    grid-template-columns: repeat(1, 1fr);
-    row-gap: 12px;
-  }
-  .vim-para {
-    width: 346px;
-  }
-  #tantas-container {
-    flex-direction: column;
-    padding: 10.51px 14px;
-    width: 375px;
-  }
-  #tantas-container img {
-    width: 350px;
-  }
-  #tantas-right {
-    margin-left: 0px;
-  }
-  #tantas-right > h5 {
-    margin-top: 51.29px;
-    margin-bottom: 19px;
-  }
-  #tantas-right > h2 {
-    font-family: DM Serif Display;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 48px;
-    width: 294px;
-    margin-top: 19px;
-    margin-bottom: 31px;
-  }
-  #tantas-right > p {
-    width: 346px;
-  }
-  #tantas-btn {
-    margin-bottom: 80px;
-=======
-@media all and (max-width: 375px) {
-  .vivendo-card {
-    width: 375px;
-    height: 1632px;
-    box-sizing: border-box;
-    padding: 0 15px;
-    padding-bottom: 80px;
-  }
-  .vivendo-card #heading {
-    margin: 42px 0 31px 0;
-  }
-  .vivendo-card .p1_r {
-    margin-bottom: 50px;
-  }
-  .vivendo-card .cards {
-    flex-direction: column;
-    align-items: center;
-    padding: 0 15px;
-    margin: 16px 0;
-  }
-  .vivendo-card .cards .home, .vivendo-card .cards .truck, .vivendo-card .cards .time {
-    margin-bottom: 16px;
-  }
-  .welcome-part {
-    height: 1056px;
-    width: 461px;
-    box-sizing: border-box;
-    padding: 0 15px;
-    flex-direction: column;
-    margin-bottom: 80px;
-  }
-  .welcome-part .image-part {
-    width: 461px;
-    height: auto;
-  }
-  .welcome-part .image-part img {
-    width: 100%;
-  }
-  .welcome-part .para-part {
-    width: 461px;
-    box-sizing: border-box;
-    padding-left: 50px;
-    margin-top: 0;
-    margin-right: -20px;
-  }
-  .welcome-part .para-part h5 {
-    margin-top: 0;
-  }
-  .welcome-part #lorem_r {
-    margin: 19px 0 31px 0;
-  }
-  .welcome-part .logos {
-    margin: 44px 0 50px 0;
-  }
-  .welcome-part .buttons > button:nth-child(2) {
-    margin-left: 7px;
-  }
-  .blue-part {
-    height: 896px;
-    width: 375px;
-    box-sizing: border-box;
-    padding: 74px 15px 73px 15px;
-  }
-  .blue-part #small-para {
-    margin: 31px 0;
-  }
-  .blue-part .analytics {
-    grid-template-columns: repeat(1, 1fr);
-
   }
 }
 
