@@ -164,13 +164,6 @@
     bottom: 30%;
 }
 
-
-
-
-
-
-
-
 /* <!-- <Haresh's Section> --> */
 
 .image_h{
@@ -298,25 +291,111 @@ font-size: 24px;
 }
 
 
+/* <!-- <Sameer's Section> --> */
+.best-seller_S{
+    width: 90%;
+    margin: auto;
+}
+.best-seller_S>p{
+    font-size: 24px;
+    /* font-weight: bold; */
+    padding-top: 20px;
+    transition: .5s;
+}
+.best-seller_S>p:hover{
+    cursor: pointer;
+    font-weight: bolder ;
+}
+.best_S{
+    font-weight: bold;
+}
+.best_S:hover{
+    color: #ED1C24;
+}
 
+.image_S{
+    /* width: 267px; */
+    height: 267px;
+}
+.image_S1{
+    width: 50px;
+    overflow: hidden;
+    margin-top: -10px;
+    
+}
 
+.card-hover_S{
+    transition: 0.3s;
+}
+.card-hover_S:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+}
+.card-body{
+    position: relative;
+}
+.playback_S{
+    border: 1px solid white;
+    width: 76%;
+    margin: auto;
+    height: 25px;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 50px;
+    text-align: center;
+    background-color: rgb(252,197,11);
+    position: absolute;
+    bottom: 162px;
+    left: 12%;
+}
+.Availabe_S{
+    width: 45%;
+    height: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    position: absolute;
+    bottom: 410px;
+    left: 0;
+    border: none;
+}
 
+.btn-hover_S:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.card-hover_S1:hover{
+    cursor: pointer;
+}
+.card-style_S{
+   background-color:rgb(250,250,250);
+}
+.card-date_S{
+    color: rgb(171,175,178);
+    font-weight: 600;
+}
+.card-text_S{
+    color: rgb(163,166,168);    
+}
 
+.position-image{
+    background-color: white;
+    width:45px;
+    height: 45px;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    position: absolute;
+    bottom: 25%;
+    left: 37%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.invest_S{
+    color: rgb(106,106,106);
+}
 
 
 
