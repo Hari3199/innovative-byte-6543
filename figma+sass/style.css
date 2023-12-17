@@ -1,8 +1,22 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* Error: unmatched "}".
+ *      ,
+ * 1642 | }
+ *      | ^
+ *      '
+ *   style.scss 1642:1  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: unmatched "}".\a      \2577 \a 1642 \2502  }\a      \2502  ^\a      \2575 \a   style.scss 1642:1  root stylesheet';
 }
+
+
 
 .header1_h {
   width: 1440px;
@@ -1407,3 +1421,4 @@ footer .footer-1 #img-contant .image-description p {
 }
 
 /*# sourceMappingURL=style.css.map */
+
