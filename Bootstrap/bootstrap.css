@@ -1,28 +1,16 @@
 
-
-
 /* Rantu style */
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Preahvihear;
-}
 .top-bar{
     width: 100%;
     height: 40px;
     background-color: #eff4f7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     box-sizing: border-box;
-    padding-top: 12px;
     position: fixed;
     top: 0;
     z-index: 1;
 }
 .top-bar>p{
-    font-size: 12px;
-    text-align: center;
+    font-size: 14px;
 }
 #logo{
     width: 85px;
@@ -103,10 +91,7 @@
 .video-part_r{
     width: 90%;
     margin: auto;
-    gap: 20px;
-    /* text-align: center; */
 }
-
 .para_r>p{
     font-weight: bolder;
     transition-duration: .5s;
@@ -115,15 +100,12 @@
     cursor: pointer;
     transform: scale(1.1);
 }
-
 .custom-border-radius {
     border-radius: 20px;
 }
 .offers{
     width: 90%;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
 }
 .offers>p{
     font-size: 24px;
@@ -157,7 +139,6 @@
 .img-text_r{
     position: absolute;
     color: white;
-   text-align: center;
     top: 40%;
     left: 25%;
     right: 25%;
@@ -167,18 +148,15 @@
 /* <!-- <Haresh's Section> --> */
 
 .image_h{
-    /* width: 267px; */
     height: 267px;
 }
 .image_h1{
     width: 50px;
-    overflow: hidden;
-    margin-top: -10px;
+    margin-top:-10px;
 }
 .image_h1b{
     width: 50px;
-    overflow: hidden;
-    margin-top: 2px;
+    margin-top:2px;
 }
 .card-body{
     position: relative;
@@ -186,12 +164,9 @@
 .playback_h{
     border: 1px solid white;
     width: 76%;
-    margin: auto;
     height: 25px;
     font-size: 13px;
-    font-weight: 700;
     border-radius: 50px;
-    text-align: center;
     background-color: rgb(252,197,11);
     position: absolute;
     bottom: 162px;
@@ -201,7 +176,6 @@
     width: 45%;
     height: 20px;
     font-size: 10px;
-    font-weight: 600;
     color: white;
     background-color: black;
     border-top-right-radius: 7px;
@@ -209,7 +183,6 @@
     position: absolute;
     bottom: 410px;
     left: 0;
-    border: none;
 }
 .Availabe_h3{
     width: 40%;
@@ -240,7 +213,6 @@
 
 .best-seller_h{
     width: 90%;
-    margin: auto;
 }
 .best-seller_h>p{
 font-size: 24px;
@@ -319,7 +291,6 @@ font-size: 24px;
 }
 .image_S1{
     width: 50px;
-    overflow: hidden;
     margin-top: -10px;
     
 }
@@ -337,12 +308,10 @@ font-size: 24px;
 .playback_S{
     border: 1px solid white;
     width: 76%;
-    margin: auto;
     height: 25px;
     font-size: 13px;
     font-weight: 700;
     border-radius: 50px;
-    text-align: center;
     background-color: rgb(252,197,11);
     position: absolute;
     bottom: 162px;
@@ -352,7 +321,6 @@ font-size: 24px;
     width: 45%;
     height: 20px;
     font-size: 10px;
-    font-weight: 600;
     color: white;
     background-color: black;
     border-top-right-radius: 7px;
@@ -360,7 +328,6 @@ font-size: 24px;
     position: absolute;
     bottom: 410px;
     left: 0;
-    border: none;
 }
 
 .btn-hover_S:hover{
@@ -385,9 +352,6 @@ font-size: 24px;
     background-color: white;
     width:45px;
     height: 45px;
-    font-size: 13px;
-    font-weight: 700;
-    text-align: center;
     position: absolute;
     bottom: 25%;
     left: 37%;
@@ -449,7 +413,6 @@ footer {
   .foot-bot-last-p {
     color: gray;
     width: 50%;
-    text-align: center;
   }
   .foot-bottom {
     background-color: rgb(231, 240, 245);
