@@ -1,35 +1,401 @@
-/* <!-- <Rantu's Section> --> */
 
 
 
+/* Rantu style */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Preahvihear;
+}
+.top-bar{
+    width: 100%;
+    height: 40px;
+    background-color: #eff4f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 12px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.top-bar>p{
+    font-size: 12px;
+    text-align: center;
+}
+#logo{
+    width: 85px;
+    margin-left: 30px;
+}
+#logo:hover{
+    cursor: pointer;
+}
+#nav5{
+    width: 100%;
+    height: 82px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    position: fixed;
+    top: 40px;
+    z-index: 1;
+}
+
+.navbar-nav>li>a{
+   margin: 0 10px;
+}
+.navbar-nav>li>a:hover{
+    cursor: pointer;
+    font-weight: bolder;
+    transform: scale(1.05);
+    border-bottom: 2px solid #ed1c24;
+}
+#category_r:hover{
+    display: block;
+}
+#navbarSupportedContent{
+    margin-left: 100px;
+}
+#form-part{
+    margin-right: 10px;
+}
+#inp{
+    width: 250px;
+    background-color: #eef0f3;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-size: medium;
+}
+
+#icon>i{
+    margin: 10px;
+    transform: scale(1.5);
+    color: #1d1c1c;
+    margin-right: 1px;
+    cursor: pointer;
+}
 
 
 
+#carouselExampleIndicators{
+    margin-top: 122px;
+}
 
+.best-seller{
+    width: 90%;
+    margin: auto;
+}
+.best-seller>p{
+    font-size: 24px;
+    /* font-weight: bold; */
+    padding-top: 20px;
+    transition: .5s;
+}
+.best-seller>p:hover{
+    cursor: pointer;
+    font-weight: bolder ;
+}
+#best_r{
+    font-weight: bold;
+}
+#best_r:hover{
+    color: #ed1c24;
+}
+.video-part_r{
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+    /* text-align: center; */
+}
 
+.para_r>p{
+    font-weight: bolder;
+    transition-duration: .5s;
+}
+.para_r>p:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
 
-
-
+.custom-border-radius {
+    border-radius: 20px;
+}
+.offers{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.offers>p{
+    font-size: 24px;
+    padding-top: 20px;
+}
+.offers>p:hover{
+    cursor: pointer;
+    font-weight: bolder;
+}
+#offers_r{
+    font-weight:bold;
+}
+#offers_r:hover{
+    color: #ed1c24;
+}
+.view_all_r:hover{
+    transform: scale(1.05);
+    color: #ED1C24;
+    cursor: pointer;
+ }
+#bar-image{
+    width: 90%;
+    height:128px;
+    margin: auto;
+    position:relative;
+}
+#image2_r>img{
+    width: 100%;
+    border-radius: 10px;
+}
+.img-text_r{
+    position: absolute;
+    color: white;
+   text-align: center;
+    top: 40%;
+    left: 25%;
+    right: 25%;
+    bottom: 30%;
+}
 
 /* <!-- <Haresh's Section> --> */
 
+.image_h{
+    /* width: 267px; */
+    height: 267px;
+}
+.image_h1{
+    width: 50px;
+    overflow: hidden;
+    margin-top: -10px;
+}
+.image_h1b{
+    width: 50px;
+    overflow: hidden;
+    margin-top: 2px;
+}
+.card-body{
+    position: relative;
+}
+.playback_h{
+    border: 1px solid white;
+    width: 76%;
+    margin: auto;
+    height: 25px;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 50px;
+    text-align: center;
+    background-color: rgb(252,197,11);
+    position: absolute;
+    bottom: 162px;
+    left: 12%;
+}
+.Availabe_h{
+    width: 45%;
+    height: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    position: absolute;
+    bottom: 410px;
+    left: 0;
+    border: none;
+}
+.Availabe_h3{
+    width: 40%;
+    height: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    position: absolute;
+    bottom: 410px;
+    left: 0;
+    border: none;
+}
+.btn-hover_h:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
 
+.card-hover_h{
+    transition: 0.3s;
+}
+.card-hover_h:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+}
 
+.best-seller_h{
+    width: 90%;
+    margin: auto;
+}
+.best-seller_h>p{
+font-size: 24px;
+    /* font-weight: bold; */
+    padding-top: 20px;
+    transition: .5s;
+}
+.best-seller_h>p:hover{
+    cursor: pointer;
+    font-weight: bolder ;
+}
+#best_h{
+    font-weight: bold;
+}
+#best_h:hover{
+    color: #ED1C24;
+}
 
-
-
+.small_items_h:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#Shipping_h:hover{
+    transform: scale(1.05);
+    font-weight: bold;
+    color: #ED1C24;
+    cursor: pointer;
+}
+.image_h{
+    width: 100%;
+}
+.ayyar_h{
+    width: 100%;
+}
+.ayyar_h:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.view_all_h:hover{
+   transform: scale(1.05);
+   color: #ED1C24;
+   cursor: pointer;
+}
+#pandya_h:hover{
+   transform: scale(1.05);
+   color: #ED1C24;
+   cursor: pointer;
+}
 
 
 /* <!-- <Sameer's Section> --> */
+.best-seller_S{
+    width: 90%;
+    margin: auto;
+}
+.best-seller_S>p{
+    font-size: 24px;
+    /* font-weight: bold; */
+    padding-top: 20px;
+    transition: .5s;
+}
+.best-seller_S>p:hover{
+    cursor: pointer;
+    font-weight: bolder ;
+}
+.best_S{
+    font-weight: bold;
+}
+.best_S:hover{
+    color: #ED1C24;
+}
 
+.image_S{
+    /* width: 267px; */
+    height: 267px;
+}
+.image_S1{
+    width: 50px;
+    overflow: hidden;
+    margin-top: -10px;
+    
+}
 
+.card-hover_S{
+    transition: 0.3s;
+}
+.card-hover_S:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+}
+.card-body{
+    position: relative;
+}
+.playback_S{
+    border: 1px solid white;
+    width: 76%;
+    margin: auto;
+    height: 25px;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 50px;
+    text-align: center;
+    background-color: rgb(252,197,11);
+    position: absolute;
+    bottom: 162px;
+    left: 12%;
+}
+.Availabe_S{
+    width: 45%;
+    height: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    position: absolute;
+    bottom: 410px;
+    left: 0;
+    border: none;
+}
 
+.btn-hover_S:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.card-hover_S1:hover{
+    cursor: pointer;
+}
+.card-style_S{
+   background-color:rgb(250,250,250);
+}
+.card-date_S{
+    color: rgb(171,175,178);
+    font-weight: 600;
+}
+.card-text_S{
+    color: rgb(163,166,168);    
+}
 
+.position-image{
+    background-color: white;
+    width:45px;
+    height: 45px;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    position: absolute;
+    bottom: 25%;
+    left: 37%;
+}
 
-
-
-
-
+.invest_S{
+    color: rgb(106,106,106);
+}
 
 /* <!-- <Sumit's Section> --> */
 footer {
