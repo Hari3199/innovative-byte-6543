@@ -15,6 +15,7 @@ $primary_1: #434CCC;
     padding-left: 135px;
     padding-right: 135px;
     justify-content: space-between;
+    
 
     h3{
       color: var(--Text_White, #FFF);
@@ -24,7 +25,14 @@ $primary_1: #434CCC;
       font-style: normal;
       font-weight: 400;
       line-height: 48px; /* 120% */
+      margin-top: 16px;
+      transition:.3s;
     }
+    h3:hover{
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+
     .link_h{
       display: flex;
       justify-content: space-evenly;
@@ -125,6 +133,7 @@ $primary_1: #434CCC;
      padding: 0px 135px;
      display:flex;
      background: rgba(67, 76, 204, 0.0515);
+     overflow: hidden;
   }
 
   .left_h{
@@ -271,40 +280,8 @@ $primary_1: #434CCC;
      }
   }
  
-// media Haresh
 
-  @media all and (max-width:375px){
-    .header1_h{
-      padding: 0;
-      max-width: 375px;
-      h3 {
-        color: #FFF;
-        margin-top: 16px;
-        font-size: 24px;
-        line-height: 32px;
-        margin-left: 14px;
-      }
-      .link_h{
-        display: none;
-      }
-      button {
-        display: none;
-      }
-      svg {
-        display: block;
-        margin-top: 24px;
-        margin-right: 26px;
-        transition:.3s;
-      }
-      svg:hover{
-        transform: scale(1.1);
-        cursor: pointer;
-      }
-    }
-  }
-
-    // Haresh Media Query
-
+// Haresh Media Query
 @media all and (max-width:375px){
   .header1_h{
     padding: 0;
@@ -347,11 +324,6 @@ $primary_1: #434CCC;
 
     }
   }
-
-    
-  // Haresh media
-
-
 
   .container_h{
     width: 375px;
@@ -487,298 +459,391 @@ $primary_1: #434CCC;
  }
 
  .right_h{
-  width: 647px;
+  width: 375px;
   height: 431px;
   margin-top: -8px;
   margin-bottom: 21px;
   // border: 1px solid red;
-  margin-left: -200px;
+  margin-left: -50px;
   img{
     width: 100%;
   }
  }
 }
   
-
- 
-
-  
-  // Rantu style
-
+// Rantu's Section
 .vivendo-card{
-  background-color: #f5f6fd;
-  width: 1440px;
-  height: 768px;
-  box-sizing: border-box;
-  padding: 60px 135px 80px 135px;
-  display: flex;
-  flex-direction: column;
-  #heading{
-      text-align: center;
-      font-family: DM Serif Display;
-      font-size: 56px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 64px; 
-      margin-bottom: 29px;
-  }
-  #heading + p{
-      text-align: center;
-      font-family: DM Sans;
-      font-size: 20px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 32px;
-      margin-bottom: 36px;
-  }
-  .cards{
-      display: flex;
-      gap: 30px;
-      
-      .home, .truck, .time{
-          width: 370px;
-          height: 416px;
-          border-radius: 5px;
-          background: #FFF;
-          box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.30);
-          padding: 0 32px;
-          transition-duration: .3s;
-      }
-      .home>div:nth-child(1){
-          margin: 64px 0 54px 0;
-      }
-      .truck>div:nth-child(1){
-          margin: 73px 0 63px 0;
-      }
-      .time>div:nth-child(1){
-          margin: 58px 0 48px 0;
-      }
-      .images{
+    background-color: #F5F6FD;
+    width: 1440px;
+    height: 768px;
+    box-sizing: border-box;
+    padding: 60px 135px 80px 135px;
+    display: flex;
+    flex-direction: column;
+    #heading{
+        text-align: center;
+        font-family: DM Serif Display;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 64px;
+        margin-bottom: 29px;
+    }
+    #heading + p{
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        margin-bottom: 36px;
+    }
+    .cards{
+        display: flex;
+        gap: 30px;
+        .home, .truck, .time{
+            width: 370px;
+            height: 416px;
+            border-radius: 5px;
+            background: #FFF;
+            box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.30);
+            padding: 0 32px;
+            transition-duration: .3s;
+        }
+        .home>div:nth-child(1){
+            margin: 64px 0 54px 0;
+        }
+        .truck>div:nth-child(1){
+            margin: 73px 0 63px 0;
+        }
+        .time>div:nth-child(1){
+            margin: 58px 0 48px 0;
+        }
+        .images{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card-heading{
+            font-family: DM Serif Display;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px;
+            margin-bottom: 15px;
+        }
+        .para{
+            color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+            font-family: DM Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            margin-bottom: 25px;
+        }
+        .learn{
+            display: flex;
+            align-items: center;
+            p{
+                color: var(--Text_Black, #000);
+                font-family: DM Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 24px;
+                margin: 18px 0 21px 0;
+            }
+            img{
+                margin-left: 7px;
+            }
+        }
+        .home:hover, .truck:hover, .time:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+    }
+}
+.welcome-part{
+    background-color: #F5F6FD;
+    width: 1440px;
+    height: 768px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    .image-part{
+        height: 653px;
+        width: 981px;
+        margin: 29px 0 86px 0;
+        box-sizing: border-box;
+    }
+    .para-part{
+        height: 100%;
+        margin-right: 135px;
+        margin-left: -5.1rem;
+        box-sizing: border-box;
+        .logos{
+            margin-bottom: 49px;
+        }
+        .logos>div:nth-child(1){
+            margin-bottom: 7px;
+        }
+        .logos>div:nth-child(2){
+            margin-bottom: 10px;
+        }
+        #para1{
+            margin-left: 23px;
+        }
+        #para2{
+            margin-left: 17px;
+        }
+        #para3{
+            margin-left: 25px;
+        }
+    }
+    .para-part>h5{
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 4.8px;
+        text-transform: uppercase;
+        margin-top: 127px;
+        margin-bottom: 21px;
+    }
+    .para-part>h2{
+        font-family: DM Serif Display;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 64px;
+        margin-bottom: 29px;
+    }
+    .para-part>p{
+        font-family: DM Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        margin-bottom: 23px;
+    }
+    .img-text{
+        display: flex;
+        align-items: center;
+    }
+    .img-text>p{
+        color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .buttons>button:nth-child(1){
+        width: 170px;
+        height: 48px;
+        border-radius: 5px;
+        background: var(--Primary_1, #434CCC);
+        color: #FFF;
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        border: 1px solid #434CCC;
+        transition-duration: 0.3s;
+    }
+    .buttons>button:nth-child(1):hover{
+        cursor: pointer;
+        background-color: #333BAC;
+        transform: scale(1.05);
+    }
+    .buttons>button:nth-child(2){
+        width: 170px;
+        height: 48px;
+        color: #434CCC;
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        border-radius: 5px;
+        border: 1px solid #434CCC;
+        margin-left: 30px;
+        transition-duration: 0.3s;
+    }
+    .buttons>button:nth-child(2):hover{
+        cursor: pointer;
+        background-color: rgb(233, 234, 250);
+        transform: scale(1.05);
+    }
+}
+.blue-part{
+    width: 1440px;
+    height: 480px;
+    background-color: #434CCC;
+    text-align: center;
+    box-sizing: border-box;
+    padding : 76px 0 89px 0;
+    h2{
+        color: var(--Text_White, #FFF);
+        text-align: center;
+        font-family: DM Serif Display;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 64px;
+        margin-bottom: 29px;
+    }
+    #small-para{
+        color: var(--Text_White, #FFF);
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        margin-bottom: 35px;
+    }
+    .analytics{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        margin: 0 135px;
+        h1{
+            color: var(--Text_White, #FFF);
+            text-align: center;
+            font-family: DM Serif Display;
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 64px;
+        }
+        p{
+            color: var(--text-white-50, rgba(255, 255, 255, 0.50));
+            text-align: center;
+            font-family: DM Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+}
+
+// Rantu Media
+
+@media all and (max-width: 375px){
+    .vivendo-card{
+        width: 375px;
+        height: 1632px;
+        padding: 0 14px;
+        .cards{
+            width: 346px;
+            height: 416px;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 15px;
+           .home, .truck, .time{
+            width: 346px;
+            height: 416px;
+           }
+        }
+    }
+    .welcome-part{
+        width: 375px;
+        height: 1056px;
+        padding: 0 14px;
+        flex-direction: column;
+        align-items: center;
+        .image-part{
+            width: 375px;
+            overflow: hidden;
+            margin-bottom: 0;
+            img{
+                width: 346px;
+            }
+        }
+        .para-part{
+            margin: 0;
+            h5{
+                margin-top: 0;
+                margin-bottom: 19px;
+                color: var(--Text_Black, #000);
+                /* H5 */
+                font-family: DM Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px; /* 150% */
+                letter-spacing: 4.8px;
+                text-transform: uppercase;
+            }
+            h2{
+                margin-bottom: 31px;
+                color: var(--Text_Black, #000);
+                /* H3 */
+                font-family: DM Serif Display;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 48px; /* 120% */
+            }
+            #p-part-para_r{
+                margin-bottom: 44px;
+                color: var(--Text_Black, #000);
+                /* Text_Big */
+                font-family: DM Sans;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 32px; /* 160% */
+            }
+            .logos{
+                margin-bottom: 49px;
+            }
+            .buttons{
+                display: flex;
+            }
+            .buttons>button:nth-child(1){
+                width: 170px;
+                height: 48px;
+            }
+            .buttons>button:nth-child(2){
+                width: 170px;
+                height: 48px;
+                margin-left: 6px;
+            }
+        }
+    }
+    .blue-part{
+        width: 375px;
+        height: 896px;
+        padding: 0 14px;
+        h2{
+            padding-top: 74px;
+        }
+        #small-para{
+            margin: 31px 0;
+        }
+        .analytics>div{
+            width: 270px;
+        }
+        .analytics{
           display: flex;
+          flex-direction: column;
           justify-content: center;
           align-items: center;
-      }
-      .card-heading{
-          font-family: DM Serif Display;
-          font-size: 24px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 32px;
-          margin-bottom: 15px;
-      }
-      .para{
-          color: var(--text-black-50, rgba(0, 0, 0, 0.50));
-          font-family: DM Sans;
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 24px;
-          margin-bottom: 25px;
-      }
-      .learn{
-          display: flex;
-          align-items: center;
-          p{
-              color: var(--Text_Black, #000);
-              font-family: DM Sans;
-              font-size: 16px;
-              font-style: normal;
-              font-weight: 700;
-              line-height: 24px; 
-              margin: 18px 0 21px 0;
-          }
-          img{
-              margin-left: 7px;
-          }
-      }
-      .home:hover, .truck:hover, .time:hover{
-          cursor: pointer;
-          transform: scale(1.1);
-      }
-    
-  }
-}
-
-.welcome-part{
-  background-color: #f5f6fd;
-  width: 1440px;
-  height: 768px;
-  display: flex;
-  align-items: center;
-  box-sizing: border-box;
- 
-  .image-part{
-      height: 653px;
-      width: 981px;
-      margin: 29px 0 86px 0;
-      box-sizing: border-box;
-  }
-  .para-part{
-      height: 100%;
-      margin-right: 135px;
-      margin-left: -5.1rem;
-      box-sizing: border-box;
-      
-      .logos{
-          margin-bottom: 49px;
-      }
-      .logos>div:nth-child(1){
-          margin-bottom: 7px;
-      }
-      .logos>div:nth-child(2){
-          margin-bottom: 10px;
-      }
-      #para1{
-          margin-left: 23px;
-      }
-      #para2{
-          margin-left: 17px;
-      }
-      #para3{
-          margin-left: 25px;
-      }
-  }
-
-  .para-part>h5{
-      font-family: DM Sans;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 24px;
-      letter-spacing: 4.8px;
-      text-transform: uppercase;
-      margin-top: 127px;
-      margin-bottom: 21px;
-  }
-  .para-part>h2{
-      font-family: DM Serif Display;
-      font-size: 56px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 64px;
-      margin-bottom: 29px;
-  }
-  .para-part>p{
-      font-family: DM Sans;
-      font-size: 20px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 32px; 
-      margin-bottom: 23px;
-  }
-
- 
-  .img-text{
-      display: flex;
-      align-items: center;
-  }
-  .img-text>p{
-      color: var(--text-black-50, rgba(0, 0, 0, 0.50));
-      font-family: DM Sans;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 24px;
-  }
-  .buttons>button:nth-child(1){
-      width: 170px;
-      height: 48px;
-      border-radius: 5px;
-      background: var(--Primary_1, #434CCC);
-      color: #FFF;
-      text-align: center;
-      font-family: DM Sans;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 24px;
-      border: 1px solid #434CCC;
-      transition-duration: 0.3s;
-  }
-  .buttons>button:nth-child(1):hover{
-      cursor: pointer;
-      background-color: #333bac;
-      transform: scale(1.05);
-  }
-  .buttons>button:nth-child(2){
-      width: 170px;
-      height: 48px;
-      color: #434CCC;
-      text-align: center;
-      font-family: DM Sans;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 24px;
-      border-radius: 5px;
-      border: 1px solid #434CCC;
-      margin-left: 30px;
-      transition-duration: 0.3s;
-  }
-  .buttons>button:nth-child(2):hover{
-      cursor: pointer;
-      background-color: rgb(233, 234, 250);
-      transform: scale(1.05);
-  }
-}
-
-.blue-part{
-  width: 1440px;
-  height: 480px;
-  background-color: #434CCC;
-  text-align: center;
-  box-sizing: border-box;
-  padding : 76px 0 89px 0;
-  h2{
-      color: var(--Text_White, #FFF);
-      text-align: center;
-      font-family: DM Serif Display;
-      font-size: 56px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 64px;
-      margin-bottom: 29px;
-  }
-  #small-para{
-      color: var(--Text_White, #FFF);
-      text-align: center;
-      font-family: DM Sans;
-      font-size: 20px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 32px; 
-      margin-bottom: 35px;
-  }
-  .analytics{
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 30px;
-      margin: 0 135px;
-      h1{
-          color: var(--Text_White, #FFF);
-          text-align: center;
-          font-family: DM Serif Display;
-          font-size: 56px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 64px;
-      }
-      p{
-          color: var(--text-white-50, rgba(255, 255, 255, 0.50));
-          text-align: center;
-          font-family: DM Sans;
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 24px;
-      }
-  }
- 
+        }
+    }
 }
 
 
 
-// Rantu Media 
+
+
 
 @media all and (max-width: 375px) {
   .vivendo-card{
@@ -858,7 +923,9 @@ $primary_1: #434CCC;
 }
   // Rantu style
 
-  // Sumit style
+
+
+// Sumit style
 
   #Vim-container {
     background: rgb(67, 76, 204, 0.0515);
@@ -1056,12 +1123,10 @@ hr {
     width: 470px;
 }
 
-// Responsive layout
+// sumit media
 
 @media all and (max-width:375px) {
-
-
-    #Vim-container {
+  #Vim-container {
         padding-left: 14px;
         width: 375px;
         flex-direction: column;
@@ -1098,18 +1163,63 @@ hr {
         }
     }
 
+    .vim-para {
+      width: 346px;
+  }
 
+  #tantas-container {
+      flex-direction: column;
+      padding: 10.51px 14px;
+      width: 375px;
+
+      img {
+          width: 350px;
+      }
+  }
+
+  #tantas-right {
+      margin-left: 0px;
+  }
+
+  #tantas-right>h5 {
+      margin-top: 51.29px;
+      margin-bottom: 19px;
+  }
+
+  #tantas-right>h2 {
+      font-family: DM Serif Display;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 48px;
+      width: 294px;
+      margin-top: 19px;
+      margin-bottom: 31px;
+  }
+
+  #tantas-right>p {
+      width: 346px;
+  }
+
+  #tantas-btn {
+      margin-bottom: 80px;
+  }
+}
+
+
+
+// Sameer stylee
 
   // body-last-section1(sameer)
-#section-1_S {
-  width: 1440px;
-  height: 768px;
-  background: rgba(67, 76, 204, 0.0515);
-  display: flex;
-  justify-content: column;
-  box-sizing: border-box;
+   #section-1_S {
+    width: 1440px;
+    height: 768px;
+    background: rgba(67, 76, 204, 0.0515);
+    display: flex;
+    justify-content: column;
+    box-sizing: border-box;
 
-  #section1-text_area {
+   #section1-text_area {
       height: auto;
       width: 720px;
 
@@ -1173,15 +1283,14 @@ hr {
   }
 
   #image-clip1 {
-      width: 720px;
-
+      width: 1131px;
+      margin-left: 20px;
+      overflow: hidden;
       img {
           width: 100%;
       }
   }
 }
-
-
 
 #section-2_S {
   background-color: #ffdd78;
@@ -1433,6 +1542,9 @@ footer {
       }
   }
 }
+
+//media sameer
+
 // section1_S media(sameer)
 @media screen and (max-width: 375px) {
   #section-1_S {
@@ -1497,12 +1609,11 @@ footer {
       }
   }
 }
-
 // section2_S media(sameer)
 @media screen and (max-width: 375px) {
 
   #section-2_S {
-      width: 100%;
+      width: 375px;
       height: auto;
       gap: 50px;
       grid-template-columns: repeat(1, 1fr);
@@ -1512,8 +1623,6 @@ footer {
           width: 80%;
           margin-left: 14px;
           margin-right: 15px;
-
-
 
           h2 {
               font-family: DM Serif Display;
@@ -1564,7 +1673,7 @@ footer {
 
   footer {
       height: 844px;
-      max-width: 100%;
+      width: 375px;
       padding: 0px 15px 0px 14px;
       overflow: hidden;
 
@@ -1583,6 +1692,7 @@ footer {
       overflow: hidden;
       height: 112px;
       padding: 0px 15px 0px 14px;
+
       max-width: 100%;
   }
 }
@@ -1640,3 +1750,8 @@ footer {
 
 
 }
+
+      width: 375px;
+  }
+}
+
