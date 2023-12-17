@@ -397,5 +397,122 @@ font-size: 24px;
     color: rgb(106,106,106);
 }
 
-
-
+/* <!-- <Sumit's Section> --> */
+footer {
+    font-size: 13px;
+  }
+  .inp {
+    width: 350px;
+  }
+  #section-footer span:hover {
+    cursor: pointer;
+  }
+  footer ul li {
+    transition: 0.5s;
+  }
+  footer ul > li:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .foot {
+    gap: 35px;
+    background-color: rgb(231, 240, 245);
+    line-height: 2.5rem;
+    padding: 40px 20px;
+  }
+  
+  .foot span {
+    margin-left: -43px;
+    color: gray;
+  }
+  .li-gap {
+    gap: 20px;
+  }
+  .foot-mid {
+    background-color: rgb(239, 244, 247);
+  }
+  .foot-mid ul {
+    color: gray;
+  }
+  .h4 h4,
+  .h4 span {
+    transition: 0.5s;
+  }
+  .h4 span {
+    display: none;
+    transition: 0.5s;
+  }
+  .foot-bot-soc {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .foot-bot-last-p {
+    color: gray;
+    width: 50%;
+    text-align: center;
+  }
+  .foot-bottom {
+    background-color: rgb(231, 240, 245);
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+  
+  @media all and (max-width: 980px) {
+    footer ul,
+    footer > section:nth-child(2) h5,
+    footer > section:nth-child(2) br {
+      display: none;
+    }
+    #section-footer > div:nth-child(1) {
+      margin: auto;
+    }
+    #section-footer > div:nth-child(1) > h2 {
+      font-size: 22px;
+    }
+    #section-footer > div:nth-child(1) > input {
+      width: 100%;
+    }
+    .foot-flex-dir {
+      flex-direction: column !important;
+    }
+  
+    .inp {
+      width: 100%;
+    }
+    /* #flex-row {
+      
+    } */
+    footer > section:nth-child(2) {
+      padding: 40px 20px;
+      flex-direction: column !important;
+    }
+    footer > section:nth-child(2) h4 {
+      font-size: 16px;
+    }
+    .h4 {
+      display: flex;
+      justify-content: space-between;
+      color: rgb(83, 83, 83);
+      margin-bottom: 25px;
+    }
+    .h4 span {
+      display: block;
+      color: gray;
+      font-size: 16px;
+    }
+    .h4 > span:hover,
+    .h4 > h4:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+    .foot-bot-last-p {
+      width: 100%;
+    }
+    .foot-bot-soc-cont {
+      flex-direction: column !important;
+    }
+    .foot-bot-soc-cont > div {
+      margin-top: 30px;
+    }
+  }
+  
