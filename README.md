@@ -27,13 +27,15 @@ This project offers a collection of professional and customizable web components
   -![Screenshot 2024-01-07 205229](https://github.com/Hari3199/innovative-byte-6543/assets/140305265/9bfcac7b-03d6-4bf4-8647-6b68736cd591)
 
   - Figma
-  ![Screenshot (11)](https://github.com/sachinkumanache/dynamic-hub-4321/assets/77038792/84054f71-fccd-4828-a427-e20d054350d0)
+  - ![Screenshot 2024-01-07 205405](https://github.com/Hari3199/innovative-byte-6543/assets/140305265/b1d87414-823a-4b50-910b-071e3ba2476b)
+  
 - **Body Sections:**
   - Multiple pre-designed body sections for diverse content layouts.
   - Simple integration and customization for different page structures.
   - sugercosmatics
     ![Screenshot (14)](https://github.com/sachinkumanache/dynamic-hub-4321/assets/77038792/42588b6e-a660-4b16-93fa-7727148c64c7)
   - Figma
+
   ![Screenshot (15)](https://github.com/sachinkumanache/dynamic-hub-4321/assets/77038792/e4efe65b-4776-4e62-a09d-271a33aa4a6f)
 - **Carousel:**
   - Interactive image carousel with smooth sliding animations.![sec-1](https://github.com/Hari3199/innovative-byte-6543/assets/140305265/bd84f824-5f3e-4096-81aa-233312c9ab95)
