@@ -7,10 +7,14 @@ Members
 
 # projects - (figma-sass, Boat-Lifestyle-clone)
 *figma-design* - https://innovative-bytes-figma.netlify.app/
-*sugar cosmetics*-  https://innovative-byte-project-bootstrap.netlify.app/
+*Boat-Lifestyle-clone*-  https://innovative-byte-project-bootstrap.netlify.app/
 
-## Overview
+## Overview for *figma-design*:
+This project offers a collection of professional and customizable web components and the pixle perfectnesst of the given data in design using Html css and Sass.
+
+## Overview for *Boat-Lifestyle-clone*:
 This project offers a collection of professional and customizable web components, including a responsive navbar, footer, carousel, and various body sections. Elevate our web development projects with these versatile components that enhance navigation, presentation, and overall user experience.
+
 ## Installation
 1. Clone the repository
    ```bash
@@ -19,8 +23,9 @@ This project offers a collection of professional and customizable web components
 - **Navbar:**
   - Responsive design with dropdown support.
   - Easily customizable styles and configurations.
-  - sugercosmatics
-  -![Screenshot (12)](https://github.com/sachinkumanache/dynamic-hub-4321/assets/77038792/002ab612-7e81-48cf-bdc2-cb9e770d2b40)
+  - *Boat-Lifestyle-clone*
+  -![Screenshot 2024-01-07 205229](https://github.com/Hari3199/innovative-byte-6543/assets/140305265/9bfcac7b-03d6-4bf4-8647-6b68736cd591)
+
   - Figma
   ![Screenshot (11)](https://github.com/sachinkumanache/dynamic-hub-4321/assets/77038792/84054f71-fccd-4828-a427-e20d054350d0)
 - **Body Sections:**
