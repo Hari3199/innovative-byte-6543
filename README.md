@@ -1,6 +1,6 @@
 # innovative-byte-6543
 Members
-1. Haresh Naina(Team lead)
+1. Haresh Naina
 2. Rantu Bangal
 3. Sumit kumar Jha
 4. Sameer
