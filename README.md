@@ -13,7 +13,7 @@ Members
 This project offers a collection of professional and customizable web components and the pixle perfectnesst of the given data in design using Html css and Sass.
 
 ## Overview for *Boat-Lifestyle-clone*:
-This project offers a collection of professional and customizable web components, including a responsive navbar, footer, carousel, and various body sections. Elevate our web development projects with these versatile components that enhance navigation, presentation, and overall user experience.
+In the bustling landscape of consumer electronics, the demand for high-quality audio products is ever-growing. With a surge in the adoption of smartphones, laptops, and smart devices, there's a pronounced need for innovative audio solutions that blend cutting-edge technology with affordability. Inspired by the success and ethos of boAt, one of India's leading consumer electronics brands, our project aims to introduce a revolutionary boAt-clone, specifically tailored to the diverse needs of the Indian market.
 
 ## Installation
 1. Clone the repository
